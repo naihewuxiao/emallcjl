@@ -8,11 +8,11 @@ public class UserAddress implements Serializable {
 
     @Column
     @Id
-    private String id;
+    private Long id;
     @Column
     private String userAddress;
     @Column
-    private String userId;
+    private Long userId;
     @Column
     private String consignee;
     @Column
@@ -20,11 +20,11 @@ public class UserAddress implements Serializable {
     @Column
     private String isDefault;
 
-    public String getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -36,11 +36,11 @@ public class UserAddress implements Serializable {
         this.userAddress = userAddress;
     }
 
-    public String getUserId() {
+    public Long getUserId() {
         return userId;
     }
 
-    public void setUserId(String userId) {
+    public void setUserId(Long userId) {
         this.userId = userId;
     }
 
