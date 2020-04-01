@@ -4,7 +4,10 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/emall-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/emall-usermanage/pom.xml" />
+        <option value="$PROJECT_DIR$/emall-order-web/pom.xml" />
       </list>
     </option>
   </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_13" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
