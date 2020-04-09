@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/emall-parent/pom.xml" />
         <option value="$PROJECT_DIR$/emall-usermanage/pom.xml" />
         <option value="$PROJECT_DIR$/emall-order-web/pom.xml" />
+        <option value="$PROJECT_DIR$/emall-manage-web/pom.xml" />
       </list>
     </option>
   </component>

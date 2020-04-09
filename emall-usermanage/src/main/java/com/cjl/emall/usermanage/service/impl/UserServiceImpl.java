@@ -1,16 +1,16 @@
 package com.cjl.emall.usermanage.service.impl;
 
+import com.alibaba.dubbo.config.annotation.Service;
 import com.cjl.emall.bean.UserAddress;
 import com.cjl.emall.bean.UserInfo;
 import com.cjl.emall.service.UserService;
 import com.cjl.emall.usermanage.mapper.UserAddressMapper;
 import com.cjl.emall.usermanage.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service
+@Service(timeout = 600000)
 public class UserServiceImpl implements UserService {
 
     @Autowired
