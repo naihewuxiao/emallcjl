@@ -2,17 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5138807-8716-4cb6-9ac2-b0ecde01d0de" name="Default" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-bean/target/classes/com/cjl/emall/bean/UserAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/emall-bean/target/classes/com/cjl/emall/bean/UserAddress.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-common/emall-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/emall-common/emall-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/emall-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-interface/target/classes/com/cjl/emall/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/emall-interface/target/classes/com/cjl/emall/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-order-web/src/main/java/com/cjl/emall/order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-order-web/src/main/java/com/cjl/emall/order/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-order-web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/emall-order-web/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-service-util/emall-service-util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/emall-service-util/emall-service-util.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-usermanage/src/main/java/com/cjl/emall/usermanage/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-usermanage/src/main/java/com/cjl/emall/usermanage/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-usermanage/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/emall-usermanage/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-bean/target/emall-bean-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/emall-bean/target/emall-bean-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-bean/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/emall-bean/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-bean/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/emall-bean/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-common/target/emall-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/emall-common/target/emall-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/emall-common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-interface/target/emall-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/emall-interface/target/emall-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-interface/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/emall-interface/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/emall-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-manage-web/src/main/java/com/cjl/emall/manage/EmallManageWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-manage-web/src/main/java/com/cjl/emall/manage/EmallManageWebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-manage-web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/emall-manage-web/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-manage-web/src/test/java/com/cjl/emall/manage/EmallManageWebApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-manage-web/src/test/java/com/cjl/emall/manage/EmallManageWebApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-order-web/src/main/java/com/cjl/emall/order/EmallOrderWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-order-web/src/main/java/com/cjl/emall/order/EmallOrderWebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/emall-parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-service-util/target/emall-service-util-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/emall-service-util/target/emall-service-util-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-service-util/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/emall-service-util/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emall-web-util/emall-web-util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/emall-web-util/emall-web-util.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-web-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/emall-web-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-web-util/target/emall-web-util-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/emall-web-util/target/emall-web-util-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-web-util/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/emall-web-util/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +49,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
+        <option value="HTML File" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -63,6 +77,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
@@ -72,7 +87,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="D:/ChromeCoreDownloads/07 商品详情-全文检索资料/gmall0508" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/emall-manage-web/src/main/resources/static" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -86,8 +101,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\IdeaProjects\emallcjl\emall-manage-web\src\main\resources\static" />
       <recent name="F:\IdeaProjects\emallcjl\emall-bean\src\main\java\com\cjl\emall\bean" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.EmallUsermanageApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -103,9 +126,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EmallManageServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="emall-manage-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cjl.emall.manage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cjl.emall.manage" />
+      <option name="MAIN_CLASS_NAME" value="com.cjl.emall.manage.EmallManageServiceApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmallManageServiceApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="emall-manage-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cjl.emall.manage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cjl.emall.manage" />
+      <option name="MAIN_CLASS_NAME" value="com.cjl.emall.manage.EmallManageServiceApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmallUsermanageApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="emall-usermanage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cjl.emall.usermanage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cjl.emall.usermanage" />
+      <option name="MAIN_CLASS_NAME" value="com.cjl.emall.usermanage.EmallUsermanageApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmallManageServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="emall-manage-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cjl.emall.manage.EmallManageServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,6 +229,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EmallUsermanageApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.EmallManageServiceApplicationTests" />
+        <item itemvalue="JUnit.EmallManageServiceApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -176,7 +285,10 @@
       <workItem from="1585809313532" duration="602000" />
       <workItem from="1586226613468" duration="601000" />
       <workItem from="1586241544643" duration="3594000" />
-      <workItem from="1586400685604" duration="886000" />
+      <workItem from="1586400685604" duration="6641000" />
+      <workItem from="1586419766876" duration="5840000" />
+      <workItem from="1586425824599" duration="515000" />
+      <workItem from="1586426916065" duration="839000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1585018231570</created>
@@ -199,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585730451116</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <created>1586402388754</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586402388754</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,85 +334,85 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1512" y="362" key="#Auto_Import/0.0.2560.1400@0.0.2560.1400" timestamp="1585208474675" />
-    <state x="1725" y="413" key="#com.intellij.ide.util.MemberChooser" timestamp="1585730122519">
+    <state x="1725" y="413" key="#com.intellij.ide.util.MemberChooser" timestamp="1586422307640">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1725" y="413" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1585730122519" />
-    <state x="1413" y="292" key="CommitChangelistDialog2" timestamp="1586402373113">
+    <state x="1725" y="413" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1586422307640" />
+    <state x="1413" y="292" key="CommitChangelistDialog2" timestamp="1586402387905">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1413" y="292" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1586402373113" />
-    <state x="638" y="440" key="FileChooserDialogImpl" timestamp="1585625660170">
+    <state x="1413" y="292" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1586402387905" />
+    <state x="638" y="440" key="FileChooserDialogImpl" timestamp="1586415173000">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="638" y="440" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1585625660170" />
-    <state width="1234" height="399" key="GridCell.Tab.0.bottom" timestamp="1586248434008">
+    <state x="638" y="440" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1586415173000" />
+    <state width="1741" height="398" key="GridCell.Tab.0.bottom" timestamp="1586426339009">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="399" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1586248434008" />
-    <state width="1234" height="399" key="GridCell.Tab.0.center" timestamp="1586248434008">
+    <state width="1741" height="398" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1586426339009" />
+    <state width="1741" height="398" key="GridCell.Tab.0.center" timestamp="1586426339008">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="399" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1586248434008" />
-    <state width="1234" height="399" key="GridCell.Tab.0.left" timestamp="1586248434008">
+    <state width="1741" height="398" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1586426339008" />
+    <state width="1741" height="398" key="GridCell.Tab.0.left" timestamp="1586426339008">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="399" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1586248434008" />
-    <state width="1234" height="399" key="GridCell.Tab.0.right" timestamp="1586248434008">
+    <state width="1741" height="398" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1586426339008" />
+    <state width="1741" height="398" key="GridCell.Tab.0.right" timestamp="1586426339008">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="399" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1586248434008" />
-    <state width="1234" height="399" key="GridCell.Tab.1.bottom" timestamp="1586248434008">
+    <state width="1741" height="398" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1586426339008" />
+    <state width="1741" height="398" key="GridCell.Tab.1.bottom" timestamp="1586426339009">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="399" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1586248434008" />
-    <state width="1234" height="399" key="GridCell.Tab.1.center" timestamp="1586248434008">
+    <state width="1741" height="398" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1586426339009" />
+    <state width="1741" height="398" key="GridCell.Tab.1.center" timestamp="1586426339009">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="399" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1586248434008" />
-    <state width="1234" height="399" key="GridCell.Tab.1.left" timestamp="1586248434008">
+    <state width="1741" height="398" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1586426339009" />
+    <state width="1741" height="398" key="GridCell.Tab.1.left" timestamp="1586426339009">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="399" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1586248434008" />
-    <state width="1234" height="399" key="GridCell.Tab.1.right" timestamp="1586248434008">
+    <state width="1741" height="398" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1586426339009" />
+    <state width="1741" height="398" key="GridCell.Tab.1.right" timestamp="1586426339009">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="399" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1586248434008" />
-    <state width="1234" height="491" key="GridCell.Tab.2.bottom" timestamp="1585649392360">
+    <state width="1741" height="398" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1586426339009" />
+    <state width="1234" height="491" key="GridCell.Tab.2.bottom" timestamp="1586416844748">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="491" key="GridCell.Tab.2.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1585649392360" />
-    <state width="1234" height="491" key="GridCell.Tab.2.center" timestamp="1585649392359">
+    <state width="1234" height="491" key="GridCell.Tab.2.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1586416844748" />
+    <state width="1234" height="491" key="GridCell.Tab.2.center" timestamp="1586416844747">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="491" key="GridCell.Tab.2.center/0.0.2560.1400@0.0.2560.1400" timestamp="1585649392359" />
-    <state width="1234" height="491" key="GridCell.Tab.2.left" timestamp="1585649392359">
+    <state width="1234" height="491" key="GridCell.Tab.2.center/0.0.2560.1400@0.0.2560.1400" timestamp="1586416844747" />
+    <state width="1234" height="491" key="GridCell.Tab.2.left" timestamp="1586416844747">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="491" key="GridCell.Tab.2.left/0.0.2560.1400@0.0.2560.1400" timestamp="1585649392359" />
-    <state width="1234" height="491" key="GridCell.Tab.2.right" timestamp="1585649392360">
+    <state width="1234" height="491" key="GridCell.Tab.2.left/0.0.2560.1400@0.0.2560.1400" timestamp="1586416844747" />
+    <state width="1234" height="491" key="GridCell.Tab.2.right" timestamp="1586416844747">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="491" key="GridCell.Tab.2.right/0.0.2560.1400@0.0.2560.1400" timestamp="1585649392360" />
+    <state width="1234" height="491" key="GridCell.Tab.2.right/0.0.2560.1400@0.0.2560.1400" timestamp="1586416844747" />
     <state x="1102" y="387" key="SettingsEditor" timestamp="1585642471635">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1102" y="387" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1585642471635" />
-    <state x="1512" y="436" key="Vcs.Push.Dialog.v2" timestamp="1585730452298">
+    <state x="1512" y="436" key="Vcs.Push.Dialog.v2" timestamp="1586402390780">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1512" y="436" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1585730452298" />
-    <state x="960" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1586400689325">
+    <state x="1512" y="436" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1586402390780" />
+    <state x="960" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1586485380084">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="960" y="524" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1586400689325" />
+    <state x="960" y="524" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1586485380084" />
     <state x="1712" y="620" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585728439766">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1712" y="620" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1585728439766" />
-    <state x="57" y="396" key="new project wizard" timestamp="1586402125568">
+    <state x="1309" y="489" key="new project wizard" timestamp="1586422477614">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="57" y="396" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1586402125568" />
+    <state x="1309" y="489" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1586422477614" />
   </component>
 </project>

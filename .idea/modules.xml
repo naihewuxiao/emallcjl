@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/emall-bean/emall-bean.iml" filepath="$PROJECT_DIR$/emall-bean/emall-bean.iml" />
       <module fileurl="file://$PROJECT_DIR$/emall-common/emall-common.iml" filepath="$PROJECT_DIR$/emall-common/emall-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/emall-interface/emall-interface.iml" filepath="$PROJECT_DIR$/emall-interface/emall-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/emall-manage-service/emall-manage-service.iml" filepath="$PROJECT_DIR$/emall-manage-service/emall-manage-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/emall-manage-web/emall-manage-web.iml" filepath="$PROJECT_DIR$/emall-manage-web/emall-manage-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/emall-order-web/emall-order-web.iml" filepath="$PROJECT_DIR$/emall-order-web/emall-order-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/emall-parent/emall-parent.iml" filepath="$PROJECT_DIR$/emall-parent/emall-parent.iml" />
