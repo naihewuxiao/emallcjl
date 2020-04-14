@@ -8,7 +8,7 @@ public class UserAddress implements Serializable {
 
     @Column
     @Id
-    private Long id;
+    private String id;
     @Column
     private String userAddress;
     @Column
@@ -20,11 +20,11 @@ public class UserAddress implements Serializable {
     @Column
     private String isDefault;
 
-    public Long getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(String id) {
         this.id = id;
     }
 

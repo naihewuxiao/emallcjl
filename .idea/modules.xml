@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/emall-usermanage/emall-usermanage.iml" filepath="$PROJECT_DIR$/emall-usermanage/emall-usermanage.iml" />
       <module fileurl="file://$PROJECT_DIR$/emall-web-util/emall-web-util.iml" filepath="$PROJECT_DIR$/emall-web-util/emall-web-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/emallcjl.iml" filepath="$PROJECT_DIR$/.idea/emallcjl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fastdfs-client-java/fastdfs-client-java.iml" filepath="$PROJECT_DIR$/fastdfs-client-java/fastdfs-client-java.iml" />
     </modules>
   </component>
 </project>

@@ -1,19 +1,23 @@
 package com.cjl.emall.service;
 
-import com.cjl.emall.bean.BaseAttrInfo;
-import com.cjl.emall.bean.BaseCatalog1;
-import com.cjl.emall.bean.BaseCatalog2;
-import com.cjl.emall.bean.BaseCatalog3;
+import com.cjl.emall.bean.*;
 
 import java.util.List;
 
 public interface ManageService {
-    public List<BaseCatalog1> getCatalog1();
+    List<BaseCatalog1> getCatalog1();
 
-    public List<BaseCatalog2> getCatalog2(String catalog1Id);
+    List<BaseCatalog2> getCatalog2(String catalog1Id);
 
-    public List<BaseCatalog3> getCatalog3(String catalog2Id);
+    List<BaseCatalog3> getCatalog3(String catalog2Id);
 
-    public List<BaseAttrInfo> getAttrList(String catalog3Id);
+    List<BaseAttrInfo> getAttrList(String catalog3Id);
 
+    void saveAttrInfo(BaseAttrInfo baseAttrInfo);
+
+    BaseAttrInfo getAttrInfo(String attrId);
+
+    void deleteAttrInfo(BaseAttrInfo baseAttrInfo);
+
+    List<SpuInfo> getSpuInfoList(SpuInfo spuInfo);
 }
