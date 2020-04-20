@@ -56,6 +56,7 @@
     <a href="#" class="easyui-linkbutton" onclick="saveSpu()">保 存</a>
     <a href="#" class="easyui-linkbutton" onclick="closeSpu()">关 闭</a>
 </div>
+<div th:include="spuSaleAttrPage"></div>
 <script type="text/javascript">
     /**/
     function initSpuInfoDlg(spuInfo){
@@ -79,6 +80,10 @@
     }
     function closeSpu() {
         $("#spu_dlg").dialog('close');
+    }
+
+    function addSpuSaleAttr(){
+        initSpuSaleAttrDlg();
     }
 
     function initSpuImgListDatagrid(spuInfo) {
@@ -231,6 +236,49 @@
         });
     }
 
+    function editSpuSaleAttr() {
+        var spuId = $("#spuId").val();
+        var spuSaleAttr = $('#spuSaleAttrDg').datagrid('getSelected');
+        initSpuSaleAttrDlg(spuId, spuSaleAttr);
+    }
+
+    /*<![CDATA[*/function saveSpu() {
+        var spuInfo = {};
+        //保存单独的字段
+        spuInfo["id"] = $("#spuId").val();
+        spuInfo["spuName"] = $("#spuName").val();
+        spuInfo["description"] = $("#description").val();
+        spuInfo["catalog3Id"] = $("#ctg3ForSpuList").combobox('getValue');
+        //保存图片表格字段
+        var spuImgDgRows = $("#spuImgDg").datagrid('getRows');
+        for (var i = 0; i < spuImgDgRows.length; i++) {
+            spuInfo["spuImageList[" + i + "].imgName"] = spuImgDgRows[i].imgName;
+            //要跟bean中字段对齐
+            spuInfo["spuImageList[" + i + "].imgUrl"] = spuImgDgRows[i].imgUrl;
+        }
+        //保存销售属性中的字段
+        var spuSaleAttrDgRows = $("#spuSaleAttrDg").datagrid('getRows');
+        for (var i = 0; i < spuSaleAttrDgRows.length; i++) {
+            spuInfo["spuSaleAttrList[" + i + "].id"] = spuSaleAttrDgRows[i].id;
+            //要跟bean中字段对齐
+            spuInfo["spuSaleAttrList[" + i + "].saleAttrId"] = spuSaleAttrDgRows[i].saleAttrId;
+            //要跟bean中字段对齐
+            spuInfo["spuSaleAttrList[" + i + "].saleAttrName"] = spuSaleAttrDgRows[i].saleAttrName;
+            //保存销售属性值的字段
+            var saleAttrValueRows = spuSaleAttrDgRows[i].spuSaleAttrValueJson.rows;
+            for (var j = 0; j < saleAttrValueRows.length; j++) {
+                spuInfo["spuSaleAttrList[" + i + "].spuSaleAttrValueList[" + j + "].id"] = saleAttrValueRows[j].id;
+                spuInfo["spuSaleAttrList[" + i + "].spuSaleAttrValueList[" + j + "].saleAttrValueName"] = saleAttrValueRows[j].saleAttrValueName;
+                spuInfo["spuSaleAttrList[" + i + "].spuSaleAttrValueList[" + j + "].saleAttrId"] = spuSaleAttrDgRows[i].saleAttrId;
+            }
+        }
+        console.log(JSON.stringify(spuInfo));
+        //ajax 保存到后台
+        $.post("saveSpuInfo", spuInfo, function (data) {
+            $("#spu_dlg").dialog("close");
+            $("#spulist_dg").datagrid("reload");
+        });
+    }
 </script>
 </body>
 </html>

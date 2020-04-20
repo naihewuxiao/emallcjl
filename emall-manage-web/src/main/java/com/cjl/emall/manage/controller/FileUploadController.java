@@ -17,7 +17,7 @@ import java.io.IOException;
 
 @RestController
 public class FileUploadController {
-    /*@Value("${fileServer.url}")
+    @Value("${fileServer.url}")
     private String fileUrl; // 从配置发文件中得到 fileServier.url 的值。fileUrl=http://192.168.67.205! 必须被spring容器管理。
     @RequestMapping(value = "fileUpload",method = RequestMethod.POST)
     public String fileUpload(@RequestParam("file") MultipartFile file) throws IOException, MyException {
@@ -46,6 +46,6 @@ public class FileUploadController {
         // http://192.168.67.205/group1/M00/00/00/wKhDzVub05OAfvHOAAJiYjiS9-Y059.jpg
 //        return "https://m.360buyimg.com/babel/jfs/t5137/20/1794970752/352145/d56e4e94/591417dcN4fe5ef33.jpg";\
         return imgUrl;
-    }*/
+    }
 
 }
