@@ -59,14 +59,15 @@
         </div>
     </div>
 </div>
+</div>
 <div th:include="spuInfoPage"></div>
 <div th:include="skuInfoPage"></div>
+<div th:include="skuListPage"></div>
 </body>
 <script type="text/javascript">
     function addSpuInfo(){
         initSpuInfoDlg();  //在spuInfoPage.html中
     }
-
     function editSpuInfo(){
         var spuInfo = $('#spulist_dg').datagrid('getSelected');
         initSpuInfoDlg(spuInfo);
@@ -76,6 +77,22 @@
         var ctg3val=$("#ctg3ForSpuList").combobox('getValue');
         $('#spulist_dg').datagrid({url:'spuList?catalog3Id='+ctg3val});
     }
+
+    function addSkuInfo() {
+        var spuRow = $('#spulist_dg').datagrid('getSelected');
+        var ctg3val=$("#ctg3ForSpuList").combobox('getValue');
+        initSkuInfoDlg(spuRow.id,'',ctg3val);
+        //在skuInfoPage.html中
+    }
+
+    function showSkuInfoList(){
+        var spuRow = $('#spulist_dg').datagrid('getSelected');
+        var ctg3val=$("#ctg3ForSpuList").combobox('getValue');
+        if(!spuRow){
+            $.messager.alert('警告','请先选择spu','warning');
+        }       initSkuListDlg(spuRow.id,ctg3val);
+    }
+
 </script>
 
 </html>

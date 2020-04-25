@@ -3,16 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b5138807-8716-4cb6-9ac2-b0ecde01d0de" name="Default" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-bean/src/main/java/com/cjl/emall/bean/SpuInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-bean/src/main/java/com/cjl/emall/bean/SpuInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-bean/target/classes/com/cjl/emall/bean/SpuInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/emall-bean/target/classes/com/cjl/emall/bean/SpuInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-interface/src/main/java/com/cjl/emall/service/ManageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-interface/src/main/java/com/cjl/emall/service/ManageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-interface/target/classes/com/cjl/emall/service/ManageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/emall-interface/target/classes/com/cjl/emall/service/ManageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-manage-service/src/main/java/com/cjl/emall/manage/mapper/BaseAttrInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-manage-service/src/main/java/com/cjl/emall/manage/mapper/BaseAttrInfoMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emall-manage-service/src/main/java/com/cjl/emall/manage/service/impl/ManageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-manage-service/src/main/java/com/cjl/emall/manage/service/impl/ManageServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-manage-service/src/main/java/com/cjl/emall/manage/service/impl/SpuManageController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-manage-web/src/main/java/com/cjl/emall/manage/controller/FileUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-manage-web/src/main/java/com/cjl/emall/manage/controller/FileUploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-manage-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/emall-manage-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-manage-service/src/main/resources/com/cjl/emall/manage/mapper/SpuSaleAttrMapper.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/emall-manage-web/src/main/java/com/cjl/emall/manage/controller/ManageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-manage-web/src/main/java/com/cjl/emall/manage/controller/ManageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-manage-web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/emall-manage-web/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-manage-web/src/main/resources/templates/spuInfoPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/emall-manage-web/src/main/resources/templates/spuInfoPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-manage-web/src/main/resources/templates/skuInfoPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/emall-manage-web/src/main/resources/templates/skuInfoPage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emall-manage-web/src/main/resources/templates/spuListPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/emall-manage-web/src/main/resources/templates/spuListPage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,9 +33,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -75,7 +71,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="D:/arcsoft" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/emall-manage-service/src/main/java/com/cjl/emall/manage/mapper" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -92,9 +88,13 @@
       <recent name="F:\IdeaProjects\emallcjl\emall-manage-web\src\main\resources\static" />
       <recent name="F:\IdeaProjects\emallcjl\emall-manage-web\src\main\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cjl.emall.bean" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\IdeaProjects\emallcjl\emall-manage-web\src\main\resources\static" />
       <recent name="F:\IdeaProjects\emallcjl\emall-bean\src\main\java\com\cjl\emall\bean" />
+      <recent name="F:\IdeaProjects\emallcjl\emall-manage-service\src\main\resources\mapper" />
+      <recent name="F:\IdeaProjects\emallcjl\emall-manage-web\src\main\resources\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -317,7 +317,12 @@
       <workItem from="1587101129023" duration="634000" />
       <workItem from="1587180560489" duration="2528000" />
       <workItem from="1587350610558" duration="7885000" />
-      <workItem from="1587381641761" duration="614000" />
+      <workItem from="1587381641761" duration="1347000" />
+      <workItem from="1587538175096" duration="2684000" />
+      <workItem from="1587543032005" duration="1291000" />
+      <workItem from="1587625078989" duration="1871000" />
+      <workItem from="1587631204174" duration="7000" />
+      <workItem from="1587796094840" duration="174000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1585018231570</created>
@@ -361,7 +366,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586866475624</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update">
+      <created>1587382590935</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587382590935</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update">
+      <created>1587382617430</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1587382617430</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,14 +405,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1725" y="413" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1587351556236" />
-    <state x="1413" y="292" key="CommitChangelistDialog2" timestamp="1587382589616">
+    <state x="1413" y="292" key="CommitChangelistDialog2" timestamp="1587382616290">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1413" y="292" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1587382589616" />
-    <state x="1314" y="448" key="FileChooserDialogImpl" timestamp="1587381654075">
+    <state x="1413" y="292" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1587382616290" />
+    <state x="1314" y="448" key="FileChooserDialogImpl" timestamp="1587540541475">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1314" y="448" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1587381654075" />
+    <state x="1314" y="448" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1587540541475" />
     <state width="843" height="391" key="GridCell.Tab.0.bottom" timestamp="1587370134263">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -450,14 +469,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1102" y="387" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1586850768394" />
-    <state x="1512" y="436" key="Vcs.Push.Dialog.v2" timestamp="1587382594866">
+    <state x="1512" y="436" key="Vcs.Push.Dialog.v2" timestamp="1587382618576">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1512" y="436" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1587382594866" />
-    <state x="1073" y="534" key="com.intellij.ide.util.TipDialog" timestamp="1587381642186">
+    <state x="1512" y="436" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1587382618576" />
+    <state x="1073" y="534" key="com.intellij.ide.util.TipDialog" timestamp="1587801759582">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1073" y="534" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1587381642186" />
+    <state x="1073" y="534" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1587801759582" />
     <state x="1712" y="620" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585728439766">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

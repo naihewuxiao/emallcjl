@@ -130,13 +130,6 @@ public class ManageController {
         return  "success";
     }
 
-    @RequestMapping(value ="spuImageList" ,method = RequestMethod.GET)
-    @ResponseBody
-    public  List<SpuImage> getSpuImageList(@RequestParam Map<String,String> map){
-        String spuId = map.get("spuId");
-        List<SpuImage> spuImageList = manageService.getSpuImageList(spuId);
-        return spuImageList;
-    }
 
     @RequestMapping("spuSaleAttrList")
     @ResponseBody
