@@ -90,4 +90,17 @@ public interface ManageService {
      * @return
      */
     List<SpuSaleAttrValue> getSpuSaleAttrValueList(SpuSaleAttrValue spuSaleAttrValue);
+
+    /**
+     * 存储sku
+     * @param skuInfo
+     */
+    void saveSkuInfo(SkuInfo skuInfo);
+
+    /**
+     * 查询skuInfo列表
+     * @param spuId
+     * @return
+     */
+    List<SkuInfo> getSkuInfoListBySpu(String spuId);
 }

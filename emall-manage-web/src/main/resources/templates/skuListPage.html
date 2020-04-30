@@ -35,7 +35,23 @@
     </div>
 </div>
 </body>
-<script language="JavaScript">
+<script type="text/javascript">
+    function  initSkuListDlg(spuId,catalog3Id){
+        $('#spuIdForSkuList').val(spuId);
+        $('#catalog3IdForSkuList').val(catalog3Id);
+        $('#skulist_dlg').dialog("open");
+        initSkuListDatagrid(spuId);
+    }
 
+    function initSkuListDatagrid(spuId){
+        $("#skulist_dg").datagrid({url:"skuInfoListBySpu?spuId="+spuId});
+    }
+    function editSkuInfo(){
+        var spuId = $('#spuIdForSkuList').val();
+        var catalog3Id=$('#catalog3IdForSkuList').val();
+        var skuInfo = $('#skulist_dg').datagrid('getSelected');
+        initSkuInfoDlg(spuId,skuInfo,catalog3Id);
+        //在spuInfoPage.html中
+    }
 </script>
 </html>

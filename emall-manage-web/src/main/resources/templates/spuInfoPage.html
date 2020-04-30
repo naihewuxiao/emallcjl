@@ -65,14 +65,20 @@
 
         //初始化表单,清空表单原始数据
         initSpuForm(spuInfo);
+        loadSpuForm(spuInfo);
         //初始化图片表格 - 所有的列名
         initSpuImgListDatagrid(spuInfo);
-
+        querySpuImgList(spuInfo);
         //初始化上传控件
         initUploader();
 
         //初始化销售属性列表
         initSpuSaleAttrListDatagrid(spuInfo);
+        querySpuSaleAttrList(spuInfo)
+    }
+    function loadSpuForm(spuInfo) {
+        $("#spuName").textbox('setValue',spuInfo.spuName);
+        $("#description").textbox('setValue',spuInfo.description);
     }
     function initSpuForm() {
         //清空文本框
