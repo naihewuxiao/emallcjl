@@ -62,6 +62,19 @@
     function initSpuInfoDlg(spuInfo){
         //打开对话框
         $('#spu_dlg').dialog("open");
+        //初始化表单,清空表单原始数据
+        initSpuForm(spuInfo);
+        //初始化图片表格 - 所有的列名
+        initSpuImgListDatagrid(spuInfo);
+        //初始化上传控件
+        initUploader();
+        //初始化销售属性列表
+        initSpuSaleAttrListDatagrid(spuInfo);
+
+    }
+    function loadSpuInfoDlg(spuInfo){
+        //打开对话框
+        $('#spu_dlg').dialog("open");
 
         //初始化表单,清空表单原始数据
         initSpuForm(spuInfo);
@@ -80,6 +93,15 @@
         $("#spuName").textbox('setValue',spuInfo.spuName);
         $("#description").textbox('setValue',spuInfo.description);
     }
+
+    function querySpuImgList(spuInfo) {
+        $("#spuImgDg").datagrid({url:'spuImageList?spuId='+spuInfo.id})
+    }
+
+    function querySpuSaleAttrList(spuInfo) {
+        $("#spuSaleAttrDg").datagrid({url: 'spuSaleAttrList?spuId=' + spuInfo.id})
+    }
+
     function initSpuForm() {
         //清空文本框
         $("#spuForm").form("clear");
