@@ -3,19 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b5138807-8716-4cb6-9ac2-b0ecde01d0de" name="Default" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-bean/target/emall-bean-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/emall-bean/target/emall-bean-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-bean/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/emall-bean/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-bean/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/emall-bean/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-bean/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/emall-bean/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-interface/src/main/java/com/cjl/emall/service/ManageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-interface/src/main/java/com/cjl/emall/service/ManageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-interface/target/classes/com/cjl/emall/service/ManageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/emall-interface/target/classes/com/cjl/emall/service/ManageService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-interface/target/emall-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/emall-interface/target/emall-interface-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-interface/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/emall-interface/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-manage-service/src/main/java/com/cjl/emall/manage/mapper/SkuInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-manage-service/src/main/java/com/cjl/emall/manage/mapper/SkuInfoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-manage-service/src/main/java/com/cjl/emall/manage/service/impl/ManageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-manage-service/src/main/java/com/cjl/emall/manage/service/impl/ManageServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-manage-web/src/main/java/com/cjl/emall/manage/controller/SkuManageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-manage-web/src/main/java/com/cjl/emall/manage/controller/SkuManageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-manage-web/src/main/resources/templates/skuListPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/emall-manage-web/src/main/resources/templates/skuListPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-manage-web/src/main/resources/templates/spuInfoPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/emall-manage-web/src/main/resources/templates/spuInfoPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastdfs-client-java" beforeDir="false" afterPath="$PROJECT_DIR$/fastdfs-client-java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,18 +78,18 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\IdeaProjects\emallcjl\emall-manage-web\src\main\resources\static" />
+      <recent name="F:\IdeaProjects\emallcjl\emall-manage-web\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cjl.emall.bean" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\IdeaProjects\emallcjl\emall-manage-service\src\main\java\com\cjl\emall\manage\mapper" />
       <recent name="F:\IdeaProjects\emallcjl\emall-bean\src\main\java\com\cjl\emall\bean" />
       <recent name="F:\IdeaProjects\emallcjl\emall-manage-service\src\main\resources\mapper" />
       <recent name="F:\IdeaProjects\emallcjl\emall-manage-web\src\main\resources\static" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.cjl.emall.bean" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\IdeaProjects\emallcjl\emall-manage-web\src\main\resources\static" />
-      <recent name="F:\IdeaProjects\emallcjl\emall-manage-web\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -199,6 +187,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EmallItemWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="emall-item-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cjl.emall.item.EmallItemWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EmallManageServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="emall-manage-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cjl.emall.manage.EmallManageServiceApplication" />
@@ -254,6 +249,7 @@
       <item itemvalue="Spring Boot.EmallManageServiceApplication" />
       <item itemvalue="Spring Boot.EmallOrderWebApplication" />
       <item itemvalue="Spring Boot.EmallUsermanageApplication" />
+      <item itemvalue="Spring Boot.EmallItemWebApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -513,10 +509,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1712" y="620" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1585728439766" />
-    <state x="1309" y="489" key="new project wizard" timestamp="1586422477614">
+    <state x="1309" y="489" key="new project wizard" timestamp="1588390775972">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1309" y="489" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1586422477614" />
+    <state x="1309" y="489" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1588390775972" />
     <state x="1583" y="320" width="672" height="678" key="search.everywhere.popup" timestamp="1587369761686">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
