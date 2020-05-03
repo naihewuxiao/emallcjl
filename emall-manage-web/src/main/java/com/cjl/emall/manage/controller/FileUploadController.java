@@ -26,7 +26,7 @@ public class FileUploadController {
             String configFile = this.getClass().getResource("/tracker.conf").getFile();
             ClientGlobal.init(configFile);
             TrackerClient trackerClient=new TrackerClient();
-            TrackerServer trackerServer=trackerClient.getConnection();
+            TrackerServer trackerServer=trackerClient.getTrackerServer();
             StorageClient storageClient=new StorageClient(trackerServer,null);
             // 获取上传文件名
             String filename = file.getOriginalFilename();
