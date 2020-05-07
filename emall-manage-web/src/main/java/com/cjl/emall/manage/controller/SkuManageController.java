@@ -2,9 +2,12 @@ package com.cjl.emall.manage.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.cjl.emall.bean.SkuInfo;
+import com.cjl.emall.bean.SkuLsInfo;
 import com.cjl.emall.bean.SpuImage;
 import com.cjl.emall.bean.SpuSaleAttr;
+import com.cjl.emall.service.ListService;
 import com.cjl.emall.service.ManageService;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
+import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 import java.util.Map;
 
@@ -21,6 +25,9 @@ public class SkuManageController {
 
     @Reference
     private ManageService manageService;
+
+    @Reference
+    private ListService listService;
 
     @RequestMapping(value ="spuImageList" ,method = RequestMethod.GET)
     @ResponseBody
@@ -45,4 +52,13 @@ public class SkuManageController {
         List<SkuInfo> skuInfoList = manageService.getSkuInfoListBySpu(spuId);
         return skuInfoList;
     }
+
+    @RequestMapping(value = "onSale",method = RequestMethod.GET)
+    @ResponseBody
+    public void onSale(String skuId){
+        SkuInfo skuInfo = manageService.getSkuInfo(skuId);
+        SkuLsInfo skuLsInfo = new SkuLsInfo();
+        listService.saveSkuInfo(skuInfo);
+    }
+
 }

@@ -9,8 +9,12 @@ com\cjl\emall\bean\BaseCatalog1.class
 com\cjl\emall\bean\SpuInfo.class
 com\cjl\emall\bean\SkuAttrValue.class
 com\cjl\emall\bean\BaseAttrInfo.class
+com\cjl\emall\bean\SkuLsAttrValue.class
 com\cjl\emall\bean\SpuImage.class
+com\cjl\emall\bean\SkuLsParams.class
 com\cjl\emall\bean\SkuImage.class
 com\cjl\emall\bean\SkuSaleAttrValue.class
+com\cjl\emall\bean\SkuLsInfo.class
 com\cjl\emall\bean\BaseAttrValue.class
+com\cjl\emall\bean\SkuLsResult.class
 com\cjl\emall\bean\UserInfo.class

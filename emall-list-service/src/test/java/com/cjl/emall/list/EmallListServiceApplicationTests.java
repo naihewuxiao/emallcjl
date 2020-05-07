@@ -1,6 +1,5 @@
 package com.cjl.emall.list;
 
-
 import io.searchbox.client.JestClient;
 import io.searchbox.core.Search;
 import io.searchbox.core.SearchResult;
@@ -17,15 +16,13 @@ import java.util.List;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class EmallListServiceApplicationTests {
-
     @Autowired
     JestClient jestClient;
+
 
     @Test
     public void contextLoads() {
     }
-
-
 
     @Test
     public void testEs() throws IOException {
@@ -38,16 +35,17 @@ public class EmallListServiceApplicationTests {
                 "}";
         Search search = new Search.Builder(query).addIndex("movie_chn").addType("movie").build();
 
+
         SearchResult result = jestClient.execute(search);
-        if (result!=null) {
 
-            List<SearchResult.Hit<HashMap, Void>> hits = result.getHits(HashMap.class);
+        List<SearchResult.Hit<HashMap, Void>> hits = result.getHits(HashMap.class);
 
-            for (SearchResult.Hit<HashMap, Void> hit : hits) {
-                HashMap source = hit.source;
-                System.err.println("source = " + source);
-            }
+        for (SearchResult.Hit<HashMap, Void> hit : hits) {
+            HashMap source = hit.source;
+            System.err.println("source = " + source);
         }
+
     }
+
 
 }
