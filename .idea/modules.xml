@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/emall-bean/emall-bean.iml" filepath="$PROJECT_DIR$/emall-bean/emall-bean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/emall-cart-web/emall-cart-web.iml" filepath="$PROJECT_DIR$/emall-cart-web/emall-cart-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/emall-common/emall-common.iml" filepath="$PROJECT_DIR$/emall-common/emall-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/emall-interface/emall-interface.iml" filepath="$PROJECT_DIR$/emall-interface/emall-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/emall-item-web/emall-item-web.iml" filepath="$PROJECT_DIR$/emall-item-web/emall-item-web.iml" />

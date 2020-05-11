@@ -8,4 +8,6 @@ import java.util.List;
 public interface UserService {
     List<UserInfo> findAll();
     List<UserAddress> getUserAddressList(Long userId);
+    UserInfo login(UserInfo userInfo);
+    UserInfo verify(String userId);
 }

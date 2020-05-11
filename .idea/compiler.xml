@@ -6,23 +6,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="fastdfs-client-java" />
-        <module name="emall-manage-service" />
-        <module name="emall-interface" />
-        <module name="emall-usermanage" />
-        <module name="emall-list-service" />
-        <module name="emall-bean" />
-        <module name="emall-item-web" />
-        <module name="emall-common" />
-        <module name="emall-service-util" />
-        <module name="emall-order-web" />
-        <module name="emall-web-util" />
         <module name="emall-list-web" />
+        <module name="emall-cart-web" />
+        <module name="emall-list-service" />
+        <module name="emall-interface" />
         <module name="emall-manage-web" />
+        <module name="emall-usermanage" />
+        <module name="emall-common" />
+        <module name="fastdfs-client-java" />
+        <module name="emall-order-web" />
+        <module name="emall-passport-web" />
+        <module name="emall-service-util" />
+        <module name="emall-item-web" />
+        <module name="emall-manage-service" />
+        <module name="emall-web-util" />
+        <module name="emall-bean" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="emall-bean" target="1.8" />
+      <module name="emall-cart-web" target="1.8" />
       <module name="emall-common" target="1.8" />
       <module name="emall-interface" target="1.8" />
       <module name="emall-item-web" target="1.8" />
@@ -32,6 +35,7 @@
       <module name="emall-manage-web" target="1.8" />
       <module name="emall-order-web" target="1.8" />
       <module name="emall-parent" target="1.8" />
+      <module name="emall-passport-web" target="1.8" />
       <module name="emall-service-util" target="1.8" />
       <module name="emall-usermanage" target="1.8" />
       <module name="emall-web-util" target="1.8" />
@@ -40,12 +44,14 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="emall-cart-web" options="-parameters" />
       <module name="emall-item-web" options="" />
       <module name="emall-list-service" options="" />
       <module name="emall-list-web" options="" />
       <module name="emall-manage-service" options="" />
       <module name="emall-manage-web" options="" />
       <module name="emall-order-web" options="" />
+      <module name="emall-passport-web" options="" />
       <module name="emall-usermanage" options="" />
     </option>
   </component>
