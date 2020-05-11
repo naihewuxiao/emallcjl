@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.cjl.emall</groupId>
-    <artifactId>emall-cart-web</artifactId>
+    <artifactId>gmall-cart-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>emall-cart-web</name>
+    <name>gmall-cart-service</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -27,7 +27,7 @@
 
         <dependency>
             <groupId>com.cjl.emall</groupId>
-            <artifactId>emall-web-util</artifactId>
+            <artifactId>emall-service-util</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>

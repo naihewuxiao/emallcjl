@@ -3,21 +3,76 @@
   <component name="ChangeListManager">
     <list default="true" id="b5138807-8716-4cb6-9ac2-b0ecde01d0de" name="Default" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_34.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_34.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_34.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_19_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-bean/target/classes/com/cjl/emall/bean/BaseAttrValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/emall-bean/target/classes/com/cjl/emall/bean/BaseAttrValue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-interface/src/main/java/com/cjl/emall/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-interface/src/main/java/com/cjl/emall/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-interface/target/classes/com/cjl/emall/service/ListService.class" beforeDir="false" afterPath="$PROJECT_DIR$/emall-interface/target/classes/com/cjl/emall/service/ListService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-interface/target/classes/com/cjl/emall/service/ManageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/emall-interface/target/classes/com/cjl/emall/service/ManageService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-interface/target/classes/com/cjl/emall/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/emall-interface/target/classes/com/cjl/emall/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-item-web/src/test/java/com/cjl/emall/item/EmallItemWebApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-item-web/src/test/java/com/cjl/emall/item/EmallItemWebApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-passport-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/emall-passport-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-passport-web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/emall-passport-web/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-passport-web/src/test/java/com/cjl/emall/passport/EmallPassportWebApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-passport-web/src/test/java/com/cjl/emall/passport/EmallPassportWebApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-usermanage/src/main/java/com/cjl/emall/usermanage/EmallUsermanageApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-usermanage/src/main/java/com/cjl/emall/usermanage/EmallUsermanageApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-usermanage/src/main/java/com/cjl/emall/usermanage/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-usermanage/src/main/java/com/cjl/emall/usermanage/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-web-util/emall-web-util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/emall-web-util/emall-web-util.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-web-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/emall-web-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-cart-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/emall-cart-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-cart-web/src/main/java/com/cjl/emall/cart/EmallCartWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-cart-web/src/main/java/com/cjl/emall/cart/EmallCartWebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-cart-web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/emall-cart-web/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-cart-web/src/test/java/com/cjl/emall/cart/EmallCartWebApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-cart-web/src/test/java/com/cjl/emall/cart/EmallCartWebApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-list-web/src/main/java/com/cjl/emall/list/EmallListWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-list-web/src/main/java/com/cjl/emall/list/EmallListWebApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fastdfs-client-java" beforeDir="false" afterPath="$PROJECT_DIR$/fastdfs-client-java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fastdfs-client-java/src/test/java/org/csource/fastdfs/FdfsTest.java" beforeDir="false" />
     </list>
@@ -291,6 +346,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GmallCartServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-cart-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cjl.emall.cart.GmallCartServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -324,6 +386,7 @@
       <item itemvalue="Spring Boot.EmallListWebApplication" />
       <item itemvalue="Spring Boot.EmallPassportWebApplication" />
       <item itemvalue="Spring Boot.EmallCartWebApplication" />
+      <item itemvalue="Spring Boot.GmallCartServiceApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -423,7 +486,8 @@
       <workItem from="1588814723337" duration="1044000" />
       <workItem from="1588831742785" duration="1685000" />
       <workItem from="1589163116195" duration="2125000" />
-      <workItem from="1589167926218" duration="629000" />
+      <workItem from="1589167926218" duration="684000" />
+      <workItem from="1589178036670" duration="855000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1585018231570</created>
@@ -551,7 +615,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589163546543</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="update">
+      <created>1589168574804</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1589168574804</updated>
+    </task>
+    <task id="LOCAL-00020" summary="update">
+      <created>1589168588114</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1589168588114</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -597,10 +675,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1725" y="413" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1588832996819" />
-    <state x="1413" y="292" key="CommitChangelistDialog2" timestamp="1589168572742">
+    <state x="1413" y="292" key="CommitChangelistDialog2" timestamp="1589168586474">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1413" y="292" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1589168572742" />
+    <state x="1413" y="292" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1589168586474" />
     <state x="496" y="125" key="DiffContextDialog" timestamp="1588483774269">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -673,22 +751,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1102" y="387" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1588745292612" />
-    <state x="1512" y="436" key="Vcs.Push.Dialog.v2" timestamp="1589163552264">
+    <state x="1512" y="436" key="Vcs.Push.Dialog.v2" timestamp="1589168591710">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1512" y="436" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1589163552264" />
-    <state x="1073" y="534" key="com.intellij.ide.util.TipDialog" timestamp="1588831805974">
+    <state x="1512" y="436" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1589168591710" />
+    <state x="1073" y="534" key="com.intellij.ide.util.TipDialog" timestamp="1589178162237">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1073" y="534" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1588831805974" />
+    <state x="1073" y="534" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1589178162237" />
     <state x="1712" y="620" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588393377212">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1712" y="620" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1588393377212" />
-    <state x="798" y="488" key="new project wizard" timestamp="1589168550570">
+    <state x="798" y="488" key="new project wizard" timestamp="1589178646151">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="798" y="488" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1589168550570" />
+    <state x="798" y="488" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1589178646151" />
     <state x="1583" y="320" width="672" height="678" key="search.everywhere.popup" timestamp="1588742799881">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
