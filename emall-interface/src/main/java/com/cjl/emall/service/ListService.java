@@ -9,4 +9,6 @@ public interface ListService {
     void saveSkuInfo(SkuInfo skuInfo);
     // 根据检索条件查询数据
     SkuLsResult search(SkuLsParams skuLsParams);
+
+    void incrHotScore(String skuId);
 }

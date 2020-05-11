@@ -20,6 +20,9 @@ public class ItemController {
     @Reference
     private ManageService manageService;
 
+    //    @Reference
+//    private ListService listService;
+
     @RequestMapping("{skuId}.html")
     public String skuInfoPage(@PathVariable String skuId, HttpServletRequest request){
         // 能够得到skuId
@@ -62,7 +65,8 @@ public class ItemController {
         System.out.println(valuesSkuJson);
         request.setAttribute("valuesSkuJson",valuesSkuJson);
 
-
+        // 调用商品热度排名
+//        listService.incrHotScore(skuId);
 
         return "item";
     }

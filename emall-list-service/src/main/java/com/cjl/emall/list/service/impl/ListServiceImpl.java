@@ -1,13 +1,13 @@
 package com.cjl.emall.list.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import com.cjl.emall.bean.*;
+import com.cjl.emall.config.RedisUtil;
 import com.cjl.emall.service.ListService;
 import io.searchbox.client.JestClient;
-import io.searchbox.core.DocumentResult;
-import io.searchbox.core.Index;
-import io.searchbox.core.Search;
-import io.searchbox.core.SearchResult;
+import io.searchbox.core.*;
 import io.searchbox.core.search.aggregation.MetricAggregation;
 import io.searchbox.core.search.aggregation.TermsAggregation;
 import org.apache.commons.collections.CollectionUtils;
@@ -22,6 +22,7 @@ import org.elasticsearch.search.builder.SearchSourceBuilder;
 import org.elasticsearch.search.highlight.HighlightBuilder;
 import org.elasticsearch.search.sort.SortOrder;
 import org.springframework.beans.factory.annotation.Autowired;
+import redis.clients.jedis.Jedis;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -35,6 +36,9 @@ public class ListServiceImpl implements ListService {
 
     @Autowired
     private JestClient jestClient;
+
+    @Autowired
+    private RedisUtil redisUtil;
     // 保存的index ，type
     public static final String ES_INDEX="emall";
 
@@ -58,6 +62,7 @@ public class ListServiceImpl implements ListService {
 
     @Override
     public SkuLsResult search(SkuLsParams skuLsParams) {
+        System.out.println(JSON.toJSONString(skuLsParams));
         SkuLsResult skuLsResult = null;
         // 1.编写dsl 语句
         String query = makeQueryStringForSearch(skuLsParams);
@@ -72,6 +77,32 @@ public class ListServiceImpl implements ListService {
         // 3.将查询到的结果集转换成自己封装好的返回对象
         skuLsResult = makeResultForSearch(skuLsParams,searchResult);
         return skuLsResult;
+    }
+
+    @Override
+    public void incrHotScore(String skuId){
+        Jedis jedis = redisUtil.getJedis();
+        int timesToEs=10;
+        Double hotScore = jedis.zincrby("hotScore", 1, "skuId:" + skuId);
+        if(hotScore%timesToEs==0){
+            updateHotScore(skuId,  Math.round(hotScore));
+        }
+
+    }
+
+    private void updateHotScore(String skuId,Long hotScore){
+        String updateJson="{\n" +
+                "   \"doc\":{\n" +
+                "     \"hotScore\":"+hotScore+"\n" +
+                "   }\n" +
+                "}";
+
+        Update update = new Update.Builder(updateJson).index("gmall").type("SkuInfo").id(skuId).build();
+        try {
+            jestClient.execute(update);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     private SkuLsResult makeResultForSearch(SkuLsParams skuLsParams, SearchResult searchResult) {
