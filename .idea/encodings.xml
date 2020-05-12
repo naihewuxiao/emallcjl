@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/emall-bean" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/emall-bean/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/emall-cart-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/emall-cart-web/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/emall-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/emall-common/src/main/java" charset="UTF-8" />
@@ -25,6 +26,5 @@
     <file url="file://$PROJECT_DIR$/emall-web-util/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fastdfs-client-java/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fastdfs-client-java/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/gmall-cart-service/src/main/java" charset="UTF-8" />
   </component>
 </project>
