@@ -37,7 +37,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public List<UserAddress> getUserAddressList(Long userId) {
+    public List<UserAddress> getUserAddressList(String userId) {
         UserAddress userAddress = new UserAddress();
         userAddress.setUserId(userId);
         List<UserAddress> res = userAddressMapper.select(userAddress);

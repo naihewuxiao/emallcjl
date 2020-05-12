@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface UserService {
     List<UserInfo> findAll();
-    List<UserAddress> getUserAddressList(Long userId);
+    List<UserAddress> getUserAddressList(String userId);
     UserInfo login(UserInfo userInfo);
     UserInfo verify(String userId);
 }
