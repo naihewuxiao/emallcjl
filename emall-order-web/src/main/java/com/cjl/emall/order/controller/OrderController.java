@@ -5,8 +5,11 @@ import com.cjl.emall.bean.CartInfo;
 import com.cjl.emall.bean.OrderDetail;
 import com.cjl.emall.bean.OrderInfo;
 import com.cjl.emall.bean.UserAddress;
+import com.cjl.emall.bean.enums.OrderStatus;
+import com.cjl.emall.bean.enums.ProcessStatus;
 import com.cjl.emall.config.LoginRequire;
 import com.cjl.emall.service.CartService;
+import com.cjl.emall.service.OrderService;
 import com.cjl.emall.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -27,6 +30,9 @@ public class OrderController {
 
     @Reference
     private CartService cartService;
+
+    @Reference
+    private OrderService orderService;
 
     @RequestMapping(value = "trade",method = RequestMethod.GET)
     @LoginRequire
@@ -53,7 +59,46 @@ public class OrderController {
         orderInfo.setOrderDetailList(orderDetailList);
         orderInfo.sumTotalAmount();
         request.setAttribute("totalAmount",orderInfo.getTotalAmount());
+        // 获取TradeCode号
+        String tradeNo = orderService.getTradeNo(userId);
+        request.setAttribute("tradeNo",tradeNo);
+
         return  "trade";
+    }
+
+    @RequestMapping(value = "submitOrder",method = RequestMethod.POST)
+    @LoginRequire
+    public String submitOrder(OrderInfo orderInfo,HttpServletRequest request){
+        String userId = (String) request.getAttribute("userId");
+        // 检查tradeCode
+        String tradeNo = request.getParameter("tradeNo");
+        boolean flag = orderService.checkTradeCode(userId, tradeNo);
+        if (!flag){
+            request.setAttribute("errMsg","该页面已失效，请重新结算!");
+            return "tradeFail";
+        }
+        // 初始化参数
+        orderInfo.setOrderStatus(OrderStatus.UNPAID);
+        orderInfo.setProcessStatus(ProcessStatus.UNPAID);
+        orderInfo.sumTotalAmount();
+        orderInfo.setUserId(userId);
+        // 校验，验价
+        List<OrderDetail> orderDetailList = orderInfo.getOrderDetailList();
+
+        for (OrderDetail orderDetail : orderDetailList) {
+            // 从订单中去购物skuId，数量
+            boolean result = orderService.checkStock(orderDetail.getSkuId(), orderDetail.getSkuNum());
+            if (!result){
+                request.setAttribute("errMsg","商品库存不足，请重新下单！");
+                return "tradeFail";
+            }
+        }
+        String orderId = orderService.saveOrder(orderInfo);
+        // 删除tradeNo
+        orderService.delTradeNo(userId);
+
+        return "redirect://payment.gmall.com/index?orderId="+orderId;
+
     }
 
 

@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/emall-list-web/emall-list-web.iml" filepath="$PROJECT_DIR$/emall-list-web/emall-list-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/emall-manage-service/emall-manage-service.iml" filepath="$PROJECT_DIR$/emall-manage-service/emall-manage-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/emall-manage-web/emall-manage-web.iml" filepath="$PROJECT_DIR$/emall-manage-web/emall-manage-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/emall-order-service/emall-order-service.iml" filepath="$PROJECT_DIR$/emall-order-service/emall-order-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/emall-order-web/emall-order-web.iml" filepath="$PROJECT_DIR$/emall-order-web/emall-order-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/emall-parent/emall-parent.iml" filepath="$PROJECT_DIR$/emall-parent/emall-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/emall-passport-web/emall-passport-web.iml" filepath="$PROJECT_DIR$/emall-passport-web/emall-passport-web.iml" />
@@ -20,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/emall-web-util/emall-web-util.iml" filepath="$PROJECT_DIR$/emall-web-util/emall-web-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/emallcjl.iml" filepath="$PROJECT_DIR$/.idea/emallcjl.iml" />
       <module fileurl="file://$PROJECT_DIR$/fastdfs-client-java/fastdfs-client-java.iml" filepath="$PROJECT_DIR$/fastdfs-client-java/fastdfs-client-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gware-manage/gware-manage.iml" filepath="$PROJECT_DIR$/gware-manage/gware-manage.iml" />
     </modules>
   </component>
 </project>

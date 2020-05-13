@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="gware-manage" />
         <module name="emall-list-web" />
         <module name="emall-cart-web" />
         <module name="emall-list-service" />
@@ -22,6 +23,7 @@
         <module name="emall-manage-service" />
         <module name="emall-web-util" />
         <module name="emall-bean" />
+        <module name="emall-order-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -35,6 +37,7 @@
       <module name="emall-list-web" target="1.8" />
       <module name="emall-manage-service" target="1.8" />
       <module name="emall-manage-web" target="1.8" />
+      <module name="emall-order-service" target="1.8" />
       <module name="emall-order-web" target="1.8" />
       <module name="emall-parent" target="1.8" />
       <module name="emall-passport-web" target="1.8" />
@@ -42,6 +45,7 @@
       <module name="emall-usermanage" target="1.8" />
       <module name="emall-web-util" target="1.8" />
       <module name="fastdfs-client-java" target="1.6" />
+      <module name="gware-manage" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -53,6 +57,7 @@
       <module name="emall-list-web" options="" />
       <module name="emall-manage-service" options="" />
       <module name="emall-manage-web" options="" />
+      <module name="emall-order-service" options="" />
       <module name="emall-order-web" options="" />
       <module name="emall-passport-web" options="" />
       <module name="emall-usermanage" options="" />
