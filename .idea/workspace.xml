@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5138807-8716-4cb6-9ac2-b0ecde01d0de" name="Default" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/_state/global-12.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-cart-service/src/main/java/com/cjl/emall/cart/GmallCartServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-cart-service/src/main/java/com/cjl/emall/cart/GmallCartServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-list-service/src/main/java/com/cjl/emall/list/EmallListServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-list-service/src/main/java/com/cjl/emall/list/EmallListServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-order-web/src/main/java/com/cjl/emall/order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-order-web/src/main/java/com/cjl/emall/order/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-order-web/src/main/resources/templates/trade.html" beforeDir="false" afterPath="$PROJECT_DIR$/emall-order-web/src/main/resources/templates/trade.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-interface/src/main/java/com/cjl/emall/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-interface/src/main/java/com/cjl/emall/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-order-service/src/main/java/com/cjl/emall/order/service/ipml/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-order-service/src/main/java/com/cjl/emall/order/service/ipml/OrderServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fastdfs-client-java" beforeDir="false" afterPath="$PROJECT_DIR$/fastdfs-client-java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fastdfs-client-java/src/test/java/org/csource/fastdfs/FdfsTest.java" beforeDir="false" />
     </list>
@@ -78,7 +74,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gware-manage" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/emall-payment/src/main/resources/static" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -91,12 +87,11 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\IdeaProjects\emallcjl\emall-bean\src\main\java\com\cjl\emall\bean" />
-      <recent name="F:\IdeaProjects\emallcjl\emall-order-web\src\main\resources\templates" />
-      <recent name="F:\IdeaProjects\emallcjl\emall-order-web\src\main\resources\static" />
-      <recent name="F:\IdeaProjects\emallcjl\gmall-cart-service\src\main\resources\mapper" />
-      <recent name="F:\IdeaProjects\emallcjl\emall-cart-web\src\main\resources\templates" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\IdeaProjects\emallcjl\emall-list-web\src\main\resources\static" />
+      <recent name="F:\IdeaProjects\emallcjl\emall-list-web\src\main\resources\templates" />
+      <recent name="F:\IdeaProjects\emallcjl\emall-manage-web\src\main\resources\static" />
+      <recent name="F:\IdeaProjects\emallcjl\emall-manage-web\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.cjl.emall.bean" />
@@ -104,11 +99,12 @@
       <recent name="com.cjl.emall.list.impl" />
       <recent name="com.cjl.emall.list.controller" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\IdeaProjects\emallcjl\emall-list-web\src\main\resources\static" />
-      <recent name="F:\IdeaProjects\emallcjl\emall-list-web\src\main\resources\templates" />
-      <recent name="F:\IdeaProjects\emallcjl\emall-manage-web\src\main\resources\static" />
-      <recent name="F:\IdeaProjects\emallcjl\emall-manage-web\src\main\resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\IdeaProjects\emallcjl\emall-payment\src\main\resources\static" />
+      <recent name="F:\IdeaProjects\emallcjl\emall-payment\src\main\resources\templates" />
+      <recent name="F:\IdeaProjects\emallcjl\emall-bean\src\main\java\com\cjl\emall\bean" />
+      <recent name="F:\IdeaProjects\emallcjl\emall-order-web\src\main\resources\templates" />
+      <recent name="F:\IdeaProjects\emallcjl\emall-order-web\src\main\resources\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -286,6 +282,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EmallPaymentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="emall-payment" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cjl.emall.payment.EmallPaymentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EmallUsermanageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="emall-usermanage" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cjl.emall.usermanage.EmallUsermanageApplication" />
@@ -343,6 +346,7 @@
       <item itemvalue="Spring Boot.GmallCartServiceApplication" />
       <item itemvalue="Spring Boot.EmallOrderServiceApplication" />
       <item itemvalue="Spring Boot.GwareManageApplication" />
+      <item itemvalue="Spring Boot.EmallPaymentApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -443,7 +447,8 @@
       <workItem from="1589296780641" duration="306000" />
       <workItem from="1589336862912" duration="3225000" />
       <workItem from="1589351265488" duration="1446000" />
-      <workItem from="1589357608140" duration="2640000" />
+      <workItem from="1589357608140" duration="3276000" />
+      <workItem from="1589433644937" duration="1947000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1585018231570</created>
@@ -606,7 +611,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589296821506</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="update">
+      <created>1589361068186</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1589361068187</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -652,10 +664,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1725" y="413" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1589248967288" />
-    <state x="1370" y="245" key="CommitChangelistDialog2" timestamp="1589296820701">
+    <state x="1370" y="245" key="CommitChangelistDialog2" timestamp="1589361066570">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1370" y="245" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1589296820701" />
+    <state x="1370" y="245" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1589361066570" />
     <state x="496" y="125" key="DiffContextDialog" timestamp="1588483774269">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -728,22 +740,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1102" y="387" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1588745292612" />
-    <state x="1512" y="436" key="Vcs.Push.Dialog.v2" timestamp="1589296831512">
+    <state x="1512" y="436" key="Vcs.Push.Dialog.v2" timestamp="1589361079634">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1512" y="436" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1589296831512" />
-    <state x="1073" y="534" key="com.intellij.ide.util.TipDialog" timestamp="1589336867161">
+    <state x="1512" y="436" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1589361079634" />
+    <state x="1073" y="534" key="com.intellij.ide.util.TipDialog" timestamp="1589433653492">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1073" y="534" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1589336867160" />
+    <state x="1073" y="534" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1589433653492" />
     <state x="1712" y="620" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589296786712">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1712" y="620" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1589296786712" />
-    <state x="877" y="459" key="new project wizard" timestamp="1589338002288">
+    <state x="818" y="583" key="new project wizard" timestamp="1589433972125">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="877" y="459" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1589338002288" />
+    <state x="818" y="583" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1589433972125" />
     <state x="1583" y="320" width="672" height="678" key="search.everywhere.popup" timestamp="1588742799881">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

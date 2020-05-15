@@ -89,4 +89,11 @@ public class OrderServiceImpl implements OrderService {
         }
     }
 
+    public OrderInfo getOrderInfo(String orderId) {
+        OrderInfo orderInfo = orderInfoMapper.selectByPrimaryKey(orderId);
+        return  orderInfo;
+    }
+
+
+
 }

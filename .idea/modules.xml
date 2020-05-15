@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/emall-order-web/emall-order-web.iml" filepath="$PROJECT_DIR$/emall-order-web/emall-order-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/emall-parent/emall-parent.iml" filepath="$PROJECT_DIR$/emall-parent/emall-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/emall-passport-web/emall-passport-web.iml" filepath="$PROJECT_DIR$/emall-passport-web/emall-passport-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/emall-payment/emall-payment.iml" filepath="$PROJECT_DIR$/emall-payment/emall-payment.iml" />
       <module fileurl="file://$PROJECT_DIR$/emall-service-util/emall-service-util.iml" filepath="$PROJECT_DIR$/emall-service-util/emall-service-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/emall-usermanage/emall-usermanage.iml" filepath="$PROJECT_DIR$/emall-usermanage/emall-usermanage.iml" />
       <module fileurl="file://$PROJECT_DIR$/emall-web-util/emall-web-util.iml" filepath="$PROJECT_DIR$/emall-web-util/emall-web-util.iml" />
