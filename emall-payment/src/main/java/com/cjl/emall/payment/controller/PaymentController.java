@@ -3,7 +3,9 @@ package com.cjl.emall.payment.controller;
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.cjl.emall.bean.OrderInfo;
 import com.cjl.emall.config.LoginRequire;
+import com.cjl.emall.payment.service.PaymentService;
 import com.cjl.emall.service.OrderService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,6 +22,9 @@ public class PaymentController {
     @Reference
     private OrderService orderService;
 
+    @Autowired
+    private PaymentService paymentService;
+
     @RequestMapping("index")
     @LoginRequire
     public String index(HttpServletRequest request, Model model){
@@ -34,6 +39,8 @@ public class PaymentController {
     @ResponseBody
     public String submitPayment(HttpServletRequest request, HttpServletResponse response){
         //TODO 接入阿里支付
+        String orderId = request.getParameter("orderId");
+       paymentService.sendPaymentResult(orderId,"success");
        return "SUCCESS";
     }
 }

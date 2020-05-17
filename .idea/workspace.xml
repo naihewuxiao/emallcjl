@@ -2,15 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5138807-8716-4cb6-9ac2-b0ecde01d0de" name="Default" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emall-interface/src/main/java/com/cjl/emall/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-interface/src/main/java/com/cjl/emall/service/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emall-order-service/src/main/java/com/cjl/emall/order/service/ipml/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-order-service/src/main/java/com/cjl/emall/order/service/ipml/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-order-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/emall-order-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-payment/src/main/java/com/cjl/emall/payment/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-payment/src/main/java/com/cjl/emall/payment/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-payment/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/emall-payment/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-service-util/emall-service-util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/emall-service-util/emall-service-util.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-service-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/emall-service-util/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fastdfs-client-java" beforeDir="false" afterPath="$PROJECT_DIR$/fastdfs-client-java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fastdfs-client-java/src/test/java/org/csource/fastdfs/FdfsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gware-manage/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gware-manage/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gware-manage/src/main/java/com/atguigu/GwareManageApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gware-manage/src/main/java/com/cjl/GwareManageApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gware-manage/src/main/java/com/atguigu/gware/bean/OrderDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/gware-manage/src/main/java/com/cjl/gware/bean/OrderDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gware-manage/src/main/java/com/atguigu/gware/bean/OrderInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/gware-manage/src/main/java/com/cjl/gware/bean/OrderInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gware-manage/src/main/java/com/atguigu/gware/bean/WareInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/gware-manage/src/main/java/com/cjl/gware/bean/WareInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gware-manage/src/main/java/com/atguigu/gware/bean/WareOrderTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/gware-manage/src/main/java/com/cjl/gware/bean/WareOrderTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gware-manage/src/main/java/com/atguigu/gware/bean/WareOrderTaskDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/gware-manage/src/main/java/com/cjl/gware/bean/WareOrderTaskDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gware-manage/src/main/java/com/atguigu/gware/bean/WareSku.java" beforeDir="false" afterPath="$PROJECT_DIR$/gware-manage/src/main/java/com/cjl/gware/bean/WareSku.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gware-manage/src/main/java/com/atguigu/gware/bean/enums/OrderStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/gware-manage/src/main/java/com/cjl/gware/bean/enums/OrderStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gware-manage/src/main/java/com/atguigu/gware/bean/enums/PaymentStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/gware-manage/src/main/java/com/cjl/gware/bean/enums/PaymentStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gware-manage/src/main/java/com/atguigu/gware/bean/enums/PaymentWay(1).java" beforeDir="false" afterPath="$PROJECT_DIR$/gware-manage/src/main/java/com/cjl/gware/bean/enums/PaymentWay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gware-manage/src/main/java/com/atguigu/gware/bean/enums/ProcessStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/gware-manage/src/main/java/com/cjl/gware/bean/enums/ProcessStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gware-manage/src/main/java/com/atguigu/gware/config/ActiveMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gware-manage/src/main/java/com/cjl/gware/config/ActiveMQConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gware-manage/src/main/java/com/atguigu/gware/config/ActiveMQUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/gware-manage/src/main/java/com/cjl/gware/config/ActiveMQUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gware-manage/src/main/java/com/atguigu/gware/config/GwareConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/gware-manage/src/main/java/com/cjl/gware/config/GwareConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gware-manage/src/main/java/com/atguigu/gware/config/JsonpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gware-manage/src/main/java/com/cjl/gware/config/JsonpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gware-manage/src/main/java/com/atguigu/gware/controller/GwareController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gware-manage/src/main/java/com/cjl/gware/controller/GwareController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gware-manage/src/main/java/com/atguigu/gware/enums/TaskStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/gware-manage/src/main/java/com/cjl/gware/enums/TaskStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gware-manage/src/main/java/com/atguigu/gware/mapper/WareInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/gware-manage/src/main/java/com/cjl/gware/mapper/WareInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gware-manage/src/main/java/com/atguigu/gware/mapper/WareOrderTaskDetailMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/gware-manage/src/main/java/com/cjl/gware/mapper/WareOrderTaskDetailMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gware-manage/src/main/java/com/atguigu/gware/mapper/WareOrderTaskMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/gware-manage/src/main/java/com/cjl/gware/mapper/WareOrderTaskMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gware-manage/src/main/java/com/atguigu/gware/mapper/WareSkuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/gware-manage/src/main/java/com/cjl/gware/mapper/WareSkuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gware-manage/src/main/java/com/atguigu/gware/mq/WareConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/gware-manage/src/main/java/com/cjl/gware/consumer/WareConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gware-manage/src/main/java/com/atguigu/gware/service/GwareService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gware-manage/src/main/java/com/cjl/gware/service/GwareService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gware-manage/src/main/java/com/atguigu/gware/service/impl/GwareServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gware-manage/src/main/java/com/cjl/gware/service/impl/GwareServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gware-manage/src/main/java/com/atguigu/gware/util/HttpclientUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/gware-manage/src/main/java/com/cjl/gware/util/HttpclientUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gware-manage/src/main/resources/mapper/WareInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gware-manage/src/main/resources/mapper/WareInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gware-manage/src/main/resources/mapper/WareSkuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gware-manage/src/main/resources/mapper/WareSkuMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gware-manage/src/test/java/com/atguigu/gware/controller/GwareManageApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/gware-manage/src/test/java/com/cjl/gware/controller/GwareManageApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +144,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EmallListServiceApplication">
+  <component name="RunManager" selected="Spring Boot.GwareManageApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -305,7 +335,7 @@
     </configuration>
     <configuration name="GwareManageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="gware-manage" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.GwareManageApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cjl.GwareManageApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -449,6 +479,9 @@
       <workItem from="1589351265488" duration="1446000" />
       <workItem from="1589357608140" duration="3276000" />
       <workItem from="1589433644937" duration="1947000" />
+      <workItem from="1589507318012" duration="2411000" />
+      <workItem from="1589596770554" duration="17000" />
+      <workItem from="1589684538471" duration="2718000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1585018231570</created>
@@ -618,7 +651,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589361068187</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="update">
+      <created>1589507338140</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1589507338140</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -664,10 +704,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1725" y="413" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1589248967288" />
-    <state x="1370" y="245" key="CommitChangelistDialog2" timestamp="1589361066570">
+    <state x="1370" y="245" key="CommitChangelistDialog2" timestamp="1589507337329">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1370" y="245" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1589361066570" />
+    <state x="1370" y="245" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1589507337329" />
     <state x="496" y="125" key="DiffContextDialog" timestamp="1588483774269">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -676,38 +716,38 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1314" y="448" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1589357876717" />
-    <state width="852" height="425" key="GridCell.Tab.0.bottom" timestamp="1589340237795">
+    <state width="852" height="422" key="GridCell.Tab.0.bottom" timestamp="1589509733951">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="852" height="425" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1589340237795" />
-    <state width="852" height="425" key="GridCell.Tab.0.center" timestamp="1589340237795">
+    <state width="852" height="422" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1589509733951" />
+    <state width="852" height="422" key="GridCell.Tab.0.center" timestamp="1589509733951">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="852" height="425" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1589340237795" />
-    <state width="852" height="425" key="GridCell.Tab.0.left" timestamp="1589340237795">
+    <state width="852" height="422" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1589509733951" />
+    <state width="852" height="422" key="GridCell.Tab.0.left" timestamp="1589509733951">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="852" height="425" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1589340237795" />
-    <state width="852" height="425" key="GridCell.Tab.0.right" timestamp="1589340237795">
+    <state width="852" height="422" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1589509733951" />
+    <state width="852" height="422" key="GridCell.Tab.0.right" timestamp="1589509733951">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="852" height="425" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1589340237795" />
-    <state width="852" height="425" key="GridCell.Tab.1.bottom" timestamp="1589340237795">
+    <state width="852" height="422" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1589509733951" />
+    <state width="852" height="422" key="GridCell.Tab.1.bottom" timestamp="1589509733951">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="852" height="425" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1589340237795" />
-    <state width="852" height="425" key="GridCell.Tab.1.center" timestamp="1589340237795">
+    <state width="852" height="422" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1589509733951" />
+    <state width="852" height="422" key="GridCell.Tab.1.center" timestamp="1589509733951">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="852" height="425" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1589340237795" />
-    <state width="852" height="425" key="GridCell.Tab.1.left" timestamp="1589340237795">
+    <state width="852" height="422" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1589509733951" />
+    <state width="852" height="422" key="GridCell.Tab.1.left" timestamp="1589509733951">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="852" height="425" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1589340237795" />
-    <state width="852" height="425" key="GridCell.Tab.1.right" timestamp="1589340237795">
+    <state width="852" height="422" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1589509733951" />
+    <state width="852" height="422" key="GridCell.Tab.1.right" timestamp="1589509733951">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="852" height="425" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1589340237795" />
+    <state width="852" height="422" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1589509733951" />
     <state width="1234" height="491" key="GridCell.Tab.2.bottom" timestamp="1586416844748">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -740,14 +780,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1102" y="387" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1588745292612" />
-    <state x="1512" y="436" key="Vcs.Push.Dialog.v2" timestamp="1589361079634">
+    <state x="1512" y="436" key="Vcs.Push.Dialog.v2" timestamp="1589507341861">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1512" y="436" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1589361079634" />
-    <state x="1073" y="534" key="com.intellij.ide.util.TipDialog" timestamp="1589433653492">
+    <state x="1512" y="436" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1589507341861" />
+    <state x="1073" y="534" key="com.intellij.ide.util.TipDialog" timestamp="1589684538368">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1073" y="534" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1589433653492" />
+    <state x="1073" y="534" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1589684538368" />
     <state x="1712" y="620" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589296786712">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -760,5 +800,19 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1583" y="320" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1588742799881" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/emall-payment/src/main/java/com/cjl/emall/payment/service/PaymentService.java</url>
+          <line>3</line>
+          <properties class="com.cjl.emall.payment.service.PaymentService" method="sendPaymentResult">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
