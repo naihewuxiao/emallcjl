@@ -109,7 +109,7 @@ public class CartController {
             cartService.mergeToCartList(cookieHandlerCartList, userId);
             cartCookieHandler.deleteCartCookie(request,response);
         }
-        return "redirect://order.gmall.com/trade";
+        return "redirect://order.emall.com/trade";
     }
 
 }

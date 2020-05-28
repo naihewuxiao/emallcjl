@@ -7,7 +7,7 @@ import redis.clients.jedis.JedisPoolConfig;
 public class RedisUtil {
     private JedisPool jedisPool;
 
-    public  void  initJedisPool(String host,int port,int database){
+    public  void  initJedisPool(String host,int port,int database,String password){
         JedisPoolConfig jedisPoolConfig = new JedisPoolConfig();
         // 总数
         jedisPoolConfig.setMaxTotal(200);
@@ -21,8 +21,10 @@ public class RedisUtil {
         jedisPoolConfig.setMaxWaitMillis(2000);
         // 在获取连接时，检查是否有效
         jedisPoolConfig.setTestOnBorrow(true);
+
 // 创建连接池
-        jedisPool = new  JedisPool(jedisPoolConfig,host,port,20*1000);
+        jedisPool = new  JedisPool(jedisPoolConfig,host,port,20*1000,password);
+
 
     }
     public Jedis getJedis(){

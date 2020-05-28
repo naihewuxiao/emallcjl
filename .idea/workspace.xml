@@ -3,6 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="b5138807-8716-4cb6-9ac2-b0ecde01d0de" name="Default" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/_state/global-13.st" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-cart-service/src/main/java/com/cjl/emall/cart/GmallCartServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-cart-service/src/main/java/com/cjl/emall/cart/EmallCartServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-cart-service/src/test/java/com/cjl/emall/cart/GmallCartServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-cart-service/src/test/java/com/cjl/emall/cart/EmallCartServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-cart-web/src/main/resources/templates/cartList.html" beforeDir="false" afterPath="$PROJECT_DIR$/emall-cart-web/src/main/resources/templates/cartList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-item-web/src/main/resources/static/bootstrap/css/bootstrap(1).css" beforeDir="false" afterPath="$PROJECT_DIR$/emall-item-web/src/main/resources/static/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-item-web/src/main/resources/static/bootstrap/css/bootstrap.min(1).css" beforeDir="false" afterPath="$PROJECT_DIR$/emall-item-web/src/main/resources/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-list-web/src/main/java/com/cjl/emall/list/controller/ListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-list-web/src/main/java/com/cjl/emall/list/controller/ListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-list-web/src/main/resources/static/css/index(1).css" beforeDir="false" afterPath="$PROJECT_DIR$/emall-list-web/src/main/resources/static/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-list-web/src/main/resources/static/font/demo(1).css" beforeDir="false" afterPath="$PROJECT_DIR$/emall-list-web/src/main/resources/static/font/demo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-list-web/src/main/resources/static/font/demo_fontclass(1).html" beforeDir="false" afterPath="$PROJECT_DIR$/emall-list-web/src/main/resources/static/font/demo_fontclass.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-list-web/src/main/resources/static/font/demo_symbol(1).html" beforeDir="false" afterPath="$PROJECT_DIR$/emall-list-web/src/main/resources/static/font/demo_symbol.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-list-web/src/main/resources/static/font/demo_unicode(1).html" beforeDir="false" afterPath="$PROJECT_DIR$/emall-list-web/src/main/resources/static/font/demo_unicode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-service-util/src/main/java/com/cjl/emall/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-service-util/src/main/java/com/cjl/emall/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-service-util/src/main/java/com/cjl/emall/config/RedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-service-util/src/main/java/com/cjl/emall/config/RedisUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-service-util/target/classes/com/cjl/emall/config/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/emall-service-util/target/classes/com/cjl/emall/config/RedisConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-service-util/target/classes/com/cjl/emall/config/RedisUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/emall-service-util/target/classes/com/cjl/emall/config/RedisUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-web-util/src/main/java/com/cjl/emall/config/WebConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-web-util/src/main/java/com/cjl/emall/config/WebConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-web-util/target/classes/com/cjl/emall/config/AuthInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/emall-web-util/target/classes/com/cjl/emall/config/AuthInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-web-util/target/classes/com/cjl/emall/config/WebConst.class" beforeDir="false" afterPath="$PROJECT_DIR$/emall-web-util/target/classes/com/cjl/emall/config/WebConst.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fastdfs-client-java" beforeDir="false" afterPath="$PROJECT_DIR$/fastdfs-client-java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fastdfs-client-java/src/test/java/org/csource/fastdfs/FdfsTest.java" beforeDir="false" />
     </list>
@@ -68,7 +87,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/emall-payment/src/main/resources/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/emall-list-web/src/main/resources/templates" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -81,12 +100,11 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\IdeaProjects\emallcjl\emall-payment\src\main\resources\static" />
-      <recent name="F:\IdeaProjects\emallcjl\emall-payment\src\main\resources\templates" />
-      <recent name="F:\IdeaProjects\emallcjl\emall-bean\src\main\java\com\cjl\emall\bean" />
-      <recent name="F:\IdeaProjects\emallcjl\emall-order-web\src\main\resources\templates" />
-      <recent name="F:\IdeaProjects\emallcjl\emall-order-web\src\main\resources\static" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\IdeaProjects\emallcjl\emall-list-web\src\main\resources\static" />
+      <recent name="F:\IdeaProjects\emallcjl\emall-list-web\src\main\resources\templates" />
+      <recent name="F:\IdeaProjects\emallcjl\emall-manage-web\src\main\resources\static" />
+      <recent name="F:\IdeaProjects\emallcjl\emall-manage-web\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.cjl.emall.bean" />
@@ -94,11 +112,12 @@
       <recent name="com.cjl.emall.list.impl" />
       <recent name="com.cjl.emall.list.controller" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\IdeaProjects\emallcjl\emall-list-web\src\main\resources\static" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\IdeaProjects\emallcjl\emall-list-web\src\main\resources\templates" />
-      <recent name="F:\IdeaProjects\emallcjl\emall-manage-web\src\main\resources\static" />
-      <recent name="F:\IdeaProjects\emallcjl\emall-manage-web\src\main\resources" />
+      <recent name="F:\IdeaProjects\emallcjl\emall-payment\src\main\resources\static" />
+      <recent name="F:\IdeaProjects\emallcjl\emall-payment\src\main\resources\templates" />
+      <recent name="F:\IdeaProjects\emallcjl\emall-bean\src\main\java\com\cjl\emall\bean" />
+      <recent name="F:\IdeaProjects\emallcjl\emall-order-web\src\main\resources\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -108,7 +127,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GwareManageApplication">
+  <component name="RunManager" selected="Spring Boot.EmallCartServiceApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -213,6 +232,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EmallCartServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="emall-cart-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cjl.emall.cart.EmallCartServiceApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EmallCartWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="emall-cart-web" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cjl.emall.cart.EmallCartWebApplication" />
@@ -290,13 +317,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GmallCartServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="emall-cart-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cjl.emall.cart.GmallCartServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GwareManageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="gware-manage" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cjl.GwareManageApplication" />
@@ -337,10 +357,10 @@
       <item itemvalue="Spring Boot.EmallListWebApplication" />
       <item itemvalue="Spring Boot.EmallPassportWebApplication" />
       <item itemvalue="Spring Boot.EmallCartWebApplication" />
-      <item itemvalue="Spring Boot.GmallCartServiceApplication" />
       <item itemvalue="Spring Boot.EmallOrderServiceApplication" />
       <item itemvalue="Spring Boot.GwareManageApplication" />
       <item itemvalue="Spring Boot.EmallPaymentApplication" />
+      <item itemvalue="Spring Boot.EmallCartServiceApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -446,7 +466,21 @@
       <workItem from="1589507318012" duration="2411000" />
       <workItem from="1589596770554" duration="17000" />
       <workItem from="1589684538471" duration="3004000" />
-      <workItem from="1589781118744" duration="957000" />
+      <workItem from="1589781118744" duration="2482000" />
+      <workItem from="1589857574285" duration="691000" />
+      <workItem from="1589868520532" duration="947000" />
+      <workItem from="1589958905929" duration="4266000" />
+      <workItem from="1589977702056" duration="1228000" />
+      <workItem from="1590054608276" duration="1200000" />
+      <workItem from="1590116023614" duration="727000" />
+      <workItem from="1590140715500" duration="2490000" />
+      <workItem from="1590305876828" duration="1728000" />
+      <workItem from="1590373523519" duration="3166000" />
+      <workItem from="1590460607331" duration="3450000" />
+      <workItem from="1590564484536" duration="11563000" />
+      <workItem from="1590591855581" duration="1184000" />
+      <workItem from="1590633223499" duration="13449000" />
+      <workItem from="1590663998629" duration="4464000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1585018231570</created>
@@ -630,7 +664,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589691389182</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="update">
+      <created>1589782346081</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1589782346081</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -660,6 +701,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1512" y="362" key="#Auto_Import/0.0.2560.1400@0.0.2560.1400" timestamp="1589179747524" />
+    <state x="910" y="336" key="#GmallCartServiceApplication" timestamp="1590054621606">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="910" y="336" key="#GmallCartServiceApplication/0.0.2560.1400@0.0.2560.1400" timestamp="1590054621606" />
     <state x="1362" y="405" key="#Notifications" timestamp="1588743418107">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -676,50 +721,54 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1725" y="413" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1589248967288" />
-    <state x="1370" y="245" key="CommitChangelistDialog2" timestamp="1589691387349">
+    <state x="908" y="198" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589978683619">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1370" y="245" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1589691387349" />
+    <state x="908" y="198" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1589978683619" />
+    <state x="1370" y="245" key="CommitChangelistDialog2" timestamp="1589782345365">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1370" y="245" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1589782345365" />
     <state x="496" y="125" key="DiffContextDialog" timestamp="1588483774269">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="496" y="125" key="DiffContextDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1588483774269" />
-    <state x="1314" y="448" key="FileChooserDialogImpl" timestamp="1589357876717">
+    <state x="1314" y="448" key="FileChooserDialogImpl" timestamp="1589873689340">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1314" y="448" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1589357876717" />
-    <state width="852" height="422" key="GridCell.Tab.0.bottom" timestamp="1589509733951">
+    <state x="1314" y="448" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1589873689340" />
+    <state width="852" height="416" key="GridCell.Tab.0.bottom" timestamp="1590659475221">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="852" height="422" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1589509733951" />
-    <state width="852" height="422" key="GridCell.Tab.0.center" timestamp="1589509733951">
+    <state width="852" height="416" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1590659475221" />
+    <state width="852" height="416" key="GridCell.Tab.0.center" timestamp="1590659475221">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="852" height="422" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1589509733951" />
-    <state width="852" height="422" key="GridCell.Tab.0.left" timestamp="1589509733951">
+    <state width="852" height="416" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1590659475221" />
+    <state width="852" height="416" key="GridCell.Tab.0.left" timestamp="1590659475221">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="852" height="422" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1589509733951" />
-    <state width="852" height="422" key="GridCell.Tab.0.right" timestamp="1589509733951">
+    <state width="852" height="416" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1590659475221" />
+    <state width="852" height="416" key="GridCell.Tab.0.right" timestamp="1590659475221">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="852" height="422" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1589509733951" />
-    <state width="852" height="422" key="GridCell.Tab.1.bottom" timestamp="1589509733951">
+    <state width="852" height="416" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1590659475221" />
+    <state width="852" height="416" key="GridCell.Tab.1.bottom" timestamp="1590659475222">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="852" height="422" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1589509733951" />
-    <state width="852" height="422" key="GridCell.Tab.1.center" timestamp="1589509733951">
+    <state width="852" height="416" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1590659475222" />
+    <state width="852" height="416" key="GridCell.Tab.1.center" timestamp="1590659475221">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="852" height="422" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1589509733951" />
-    <state width="852" height="422" key="GridCell.Tab.1.left" timestamp="1589509733951">
+    <state width="852" height="416" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1590659475221" />
+    <state width="852" height="416" key="GridCell.Tab.1.left" timestamp="1590659475221">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="852" height="422" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1589509733951" />
-    <state width="852" height="422" key="GridCell.Tab.1.right" timestamp="1589509733951">
+    <state width="852" height="416" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1590659475221" />
+    <state width="852" height="416" key="GridCell.Tab.1.right" timestamp="1590659475221">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="852" height="422" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1589509733951" />
+    <state width="852" height="416" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1590659475221" />
     <state width="1234" height="491" key="GridCell.Tab.2.bottom" timestamp="1586416844748">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -752,14 +801,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1102" y="387" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1588745292612" />
-    <state x="1512" y="436" key="Vcs.Push.Dialog.v2" timestamp="1589691392024">
+    <state x="1512" y="436" key="Vcs.Push.Dialog.v2" timestamp="1589782348438">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1512" y="436" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1589691392024" />
-    <state x="1073" y="534" key="com.intellij.ide.util.TipDialog" timestamp="1589781119104">
+    <state x="1512" y="436" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1589782348438" />
+    <state x="1073" y="534" key="com.intellij.ide.util.TipDialog" timestamp="1590664197243">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1073" y="534" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1589781119104" />
+    <state x="1073" y="534" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1590664197243" />
     <state x="1712" y="620" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589296786712">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

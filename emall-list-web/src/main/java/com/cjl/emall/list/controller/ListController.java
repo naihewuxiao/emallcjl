@@ -30,13 +30,18 @@ public class ListController {
     @RequestMapping("list.html")
     public String getList(SkuLsParams skuLsParams, HttpServletRequest request){
         // 设置分页大小
-        skuLsParams.setPageSize(3);
+        skuLsParams.setPageSize(12);
 
         // 第一个功能是动态生成dsl 语句 ，第二个功能是将dsl 语句查询出的结果封装SkuLsResult
         SkuLsResult skuLsResult = listService.search(skuLsParams);
+
         // 将其变成字符串
         String string = JSON.toJSONString(skuLsResult);
         System.out.println("S="+string);
+        if (skuLsResult.getTotal()==0||skuLsResult.getAttrValueIdList()==null||skuLsResult.getAttrValueIdList().size()<1){
+            request.setAttribute("keyword",skuLsParams.getKeyword());
+            return "listFail";
+        }
         // 将商品集合信息保存，到前台进行显示
         List<SkuLsInfo> skuLsInfoList = skuLsResult.getSkuLsInfoList();
         request.setAttribute("skuLsInfoList",skuLsInfoList);
@@ -46,6 +51,7 @@ public class ListController {
         // SELECT * FROM base_attr_info ai INNER JOIN base_attr_value av ON ai.id = av.attr_id WHERE av.id IN (81,14,83)
         // 调用服务根据valueId 查询数据
         List<BaseAttrInfo> baseAttrInfoList = manageService.getAttrList(attrValueIdList);
+        System.out.println("baseAttrInfoList="+JSON.toJSONString(baseAttrInfoList));
         // 后台需要存储一个urlParam 做URL拼接
         String urlParam = makeUrlParam(skuLsParams);
         System.out.println("urlParam="+urlParam);
@@ -137,7 +143,6 @@ public class ListController {
 //                    }
                     if (excludeValueId.equals(valueId)){
                         // 说明：url中已经有平台属性值的Id存在，则后续拼接条件查找的时候，省略
-                        // conitnue break return 三者区别？
                         continue;
                     }
                 }
