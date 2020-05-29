@@ -41,7 +41,7 @@ public class OrderServiceImpl implements OrderService {
         calendar.add(Calendar.DATE,1);
         orderInfo.setExpireTime(calendar.getTime());
         // 生成第三方支付编号
-        String outTradeNo="ATGUIGU"+System.currentTimeMillis()+""+new Random().nextInt(1000);
+        String outTradeNo="EMALL"+System.currentTimeMillis()+""+new Random().nextInt(1000);
         orderInfo.setOutTradeNo(outTradeNo);
         orderInfoMapper.insertSelective(orderInfo);
 
@@ -90,12 +90,13 @@ public class OrderServiceImpl implements OrderService {
     }
 
     public boolean checkStock(String skuId,Integer skuNum){
-        String result = HttpClientUtil.doGet("http://www.gware.com/hasStock?skuId=" + skuId + "&num=" + skuNum);
+        /*String result = HttpClientUtil.doGet("http://www.gware.com/hasStock?skuId=" + skuId + "&num=" + skuNum);
         if ("1".equals(result)){
             return  true;
         }else {
             return  false;
-        }
+        }*/
+        return true;
     }
 
     public OrderInfo getOrderInfo(String orderId) {

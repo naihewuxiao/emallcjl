@@ -97,7 +97,7 @@ public class OrderController {
         // 删除tradeNo
         orderService.delTradeNo(userId);
 
-        return "redirect://payment.gmall.com/index?orderId="+orderId;
+        return "redirect://payment.emall.com/index?orderId="+orderId;
 
     }
 

@@ -172,7 +172,6 @@ public class CartServiceImpl implements CartService {
                 // skuId ,isChecked = 1
                 if (cartInfoDB.getSkuId().equals(cartInfoCK.getSkuId())){
                     if ("1".equals(cartInfoCK.getIsChecked())){
-                        // 看项目经理需求 [cookie 5 + mysql 4 ？ 9]
                         cartInfoDB.setIsChecked(cartInfoCK.getIsChecked());
                         // 保存一下选中的状态
                         checkCart(cartInfoDB.getSkuId(),cartInfoCK.getIsChecked(),userId);
