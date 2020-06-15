@@ -23,10 +23,13 @@
 
         </b>
         <ul>
-            <li>
-                <a href="#" class="li_2">你好，请登录</a>
+            <li th:if="${nickName} == null">
+                <a href="#" class="li_2" >你好，请登录</a>
             </li>
-
+            <li>
+                <a href="#" class="li_2" th:if="${nickName} != null" th:text="'您好，'+${nickName}"></a>
+            <li><a href="http://order.emall.com/list" th:if="${nickName} != null" >我的订单</a></li>
+            </li>
         </ul>
     </div>
 </div>
@@ -333,7 +336,7 @@
     function item(skuid) {
         console.log("skuid:"+skuid);
         /*商品详情*/
-        window.location.href="http://item.gmall.com/"+skuid+".html";
+        window.location.href="http://item.emall.com/"+skuid+".html";
     }
 
     function searchList(){

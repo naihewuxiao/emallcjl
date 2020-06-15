@@ -35,9 +35,7 @@ public class AuthInterceptor extends HandlerInterceptorAdapter {
         }
         // token不为空
         if (token!=null){
-            // eyJhbGciOiJIUzI1NiJ9.eyJuaWNrTmFtZSI6IkFkbWluaXN0cmF0b3IiLCJ1c2VySWQiOiIyIn0.WUvbFvXQnTMBGNyHWT-DE41MR9cn7c_W1oAtDAzb7VU
             // 登录之后，页面应该显示登录的昵称。 用户名从何而来？token 私钥就有用户的昵称
-            // 通过Base64UrlCodec 进行解密 eyJuaWNrTmFtZSI6IkFkbWluaXN0cmF0b3IiLCJ1c2VySWQiOiIyIn0
             Map map =  getUserMapByToken(token);
             // {nickName=Administrator, userId=1001}
             String nickName = (String) map.get("nickName");

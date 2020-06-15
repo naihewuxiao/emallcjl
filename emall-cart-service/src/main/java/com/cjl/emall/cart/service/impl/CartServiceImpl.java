@@ -57,7 +57,13 @@ public class CartServiceImpl implements CartService {
         }else {
             // 说明购物车中没有该商品，则新增
             // CartInfo 对象中的数据从哪里得来？ skuInfo 得来
+            if (skuId==null||skuId.length()==0){
+                System.out.println("skuId is null");
+            }
+
+            System.out.println(skuId);
             SkuInfo skuInfo = manageService.getSkuInfo(skuId);
+            System.out.println("error"+skuId);
             CartInfo cartInfo1 = new CartInfo();
 
             cartInfo1.setSkuId(skuId);
@@ -163,8 +169,7 @@ public class CartServiceImpl implements CartService {
         }
         // 将更新过的，插入过的数据通通的查询
         List<CartInfo> cartInfoList = loadCartCache(userId);
-        // 以上代码全部都是合并的是购物车列表【不区分选中还是未选中】
-        // cookie --- > mysql 二层循环嵌套
+
         // 外层使用数据库
         for (CartInfo cartInfoDB : cartInfoList) {
             // 内层使用cookie
@@ -174,7 +179,7 @@ public class CartServiceImpl implements CartService {
                     if ("1".equals(cartInfoCK.getIsChecked())){
                         cartInfoDB.setIsChecked(cartInfoCK.getIsChecked());
                         // 保存一下选中的状态
-                        checkCart(cartInfoDB.getSkuId(),cartInfoCK.getIsChecked(),userId);
+                        checkCart(cartInfoDB.getSkuId(),cartInfoCK.getIsChecked(),userId, null);
                     }
                 }
             }
@@ -188,7 +193,7 @@ public class CartServiceImpl implements CartService {
      * @param userId    用户的Id
      */
     @Override
-    public void checkCart(String skuId, String isChecked, String userId) {
+    public void checkCart(String skuId, String isChecked, String userId, Integer skuNum) {
         // 第一步：将user:userId:cart 总的购物车列表 更新【isChecked】
         Jedis jedis = redisUtil.getJedis();
 
@@ -203,6 +208,9 @@ public class CartServiceImpl implements CartService {
 
         // 将页面传递过来的商品状态赋给cartInfo
         cartInfo.setIsChecked(isChecked);
+        if (skuNum!=null){
+            cartInfo.setSkuNum(skuNum);
+        }
         // 将cartInfo 从新放回redis
         jedis.hset(userCartKey,skuId,JSON.toJSONString(cartInfo));
 

@@ -36,14 +36,18 @@ public class CartController {
 
         String userId = (String) request.getAttribute("userId");
         // 判断用户是否登录
+        System.out.println("skuID="+skuId);
         if (userId!=null){
             // 说明用户登录
+            System.out.println("用户已登录");
             cartService.addToCart(skuId,userId,Integer.parseInt(skuNum));
         }else{
             // 说明用户没有登录没有登录放到cookie中
+            System.out.println("用户未登录");
             cartCookieHandler.addToCart(request,response,skuId,userId,Integer.parseInt(skuNum));
         }
         // 取得sku信息对象
+
         SkuInfo skuInfo = manageService.getSkuInfo(skuId);
         request.setAttribute("skuInfo",skuInfo);
         request.setAttribute("skuNum",skuNum);
@@ -58,6 +62,7 @@ public class CartController {
         if (userId!=null){
             // 从redis --- mysql
             // 先判断cookie是否有购物车
+            System.out.println("CartList:用户已登录");
             List<CartInfo> cartListCK = cartCookieHandler.getCartList(request);
             List<CartInfo> cartList = null;
             if (cartListCK!=null && cartListCK.size()>0){
@@ -72,6 +77,7 @@ public class CartController {
             request.setAttribute("cartList",cartList);
         }else {
             // cookie 中查询
+            System.out.println("CartList:用户未登录");
             List<CartInfo> cartList = cartCookieHandler.getCartList(request);
             request.setAttribute("cartList",cartList);
         }
@@ -90,10 +96,12 @@ public class CartController {
         String isChecked = request.getParameter("isChecked");
         // 获取用户Id ，来判断用户是否登录
         String userId = (String) request.getAttribute("userId");
-
+        String skuNum = (String) request.getParameter("skuNum");
+        System.out.println("skuId="+skuId);
+        System.out.println("skuNum="+skuNum);
         if (userId!=null){
             // 登录了，记录当前的商品状态
-            cartService.checkCart(skuId,isChecked,userId);
+            cartService.checkCart(skuId,isChecked,userId,Integer.parseInt(skuNum));
         }else{
             // 操作cookie
             cartCookieHandler.checkCart(request,response,skuId,isChecked);

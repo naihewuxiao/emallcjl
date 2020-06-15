@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan("com.cjl.emall")
+@ComponentScan(basePackages = "com.cjl.emall")
 public class EmallOrderWebApplication {
 
     public static void main(String[] args) {

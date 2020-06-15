@@ -21,8 +21,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
 import java.util.List;
 
-@RestController
-@RequestMapping("/order")
+@Controller
 public class OrderController {
 
     @Reference
@@ -40,6 +39,7 @@ public class OrderController {
         String userId = (String) request.getAttribute("userId");
         // 得到选中的购物车列表
         List<CartInfo> cartCheckedList = cartService.getCartCheckedList(userId);
+        System.out.println("imgURL="+cartCheckedList.get(0).getImgUrl());
         // 收货人地址
         List<UserAddress> userAddressList = userService.getUserAddressList(userId);
         request.setAttribute("userAddressList",userAddressList);
@@ -101,6 +101,13 @@ public class OrderController {
 
     }
 
-
+    @RequestMapping("list")
+    @LoginRequire
+    public String list(HttpServletRequest request){
+        String userId = (String) request.getAttribute("userId");
+        List<OrderInfo> orderList = orderService.getOrderInfoByUser(userId);
+        request.setAttribute("orderList",orderList);
+        return "list";
+    }
 
 }

@@ -6,25 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="emall-manage-web" />
-        <module name="emall-usermanage" />
-        <module name="emall-cart-web" />
-        <module name="emall-cart-service" />
-        <module name="emall-interface" />
-        <module name="emall-list-web" />
-        <module name="emall-common" />
-        <module name="emall-order-web" />
-        <module name="emall-list-service" />
-        <module name="fastdfs-client-java" />
-        <module name="emall-passport-web" />
-        <module name="emall-service-util" />
-        <module name="emall-item-web" />
-        <module name="gware-manage" />
-        <module name="emall-web-util" />
         <module name="emall-bean" />
-        <module name="emall-order-service" />
-        <module name="emall-payment" />
+        <module name="emall-cart-service" />
+        <module name="emall-cart-web" />
+        <module name="emall-common" />
+        <module name="emall-interface" />
+        <module name="emall-item-web" />
+        <module name="emall-list-service" />
+        <module name="emall-list-web" />
         <module name="emall-manage-service" />
+        <module name="emall-manage-web" />
+        <module name="emall-order-service" />
+        <module name="emall-order-web" />
+        <module name="emall-passport-web" />
+        <module name="emall-payment" />
+        <module name="emall-service-util" />
+        <module name="emall-usermanage" />
+        <module name="emall-web-util" />
+        <module name="fastdfs-client-java" />
+        <module name="gware-manage" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -49,21 +49,5 @@
       <module name="fastdfs-client-java" target="1.6" />
       <module name="gware-manage" target="1.8" />
     </bytecodeTargetLevel>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="emall-cart-service" options="" />
-      <module name="emall-cart-web" options="" />
-      <module name="emall-item-web" options="" />
-      <module name="emall-list-service" options="" />
-      <module name="emall-list-web" options="" />
-      <module name="emall-manage-service" options="" />
-      <module name="emall-manage-web" options="" />
-      <module name="emall-order-service" options="" />
-      <module name="emall-order-web" options="" />
-      <module name="emall-passport-web" options="" />
-      <module name="emall-payment" options="" />
-      <module name="emall-usermanage" options="" />
-    </option>
   </component>
 </project>

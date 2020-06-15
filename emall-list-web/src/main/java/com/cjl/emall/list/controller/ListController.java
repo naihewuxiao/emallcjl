@@ -4,6 +4,7 @@ import com.alibaba.dubbo.config.annotation.Reference;
 import com.alibaba.fastjson.JSON;
 
 import com.cjl.emall.bean.*;
+import com.cjl.emall.config.LoginRequire;
 import com.cjl.emall.service.ListService;
 import com.cjl.emall.service.ManageService;
 import org.springframework.stereotype.Controller;
@@ -28,6 +29,7 @@ public class ListController {
 
     // http://localhost:8086/list.html?keyword=小米&catalog3Id=61&valueId=81&pageNo=1&pageSize=10
     @RequestMapping("list.html")
+    @LoginRequire(autoRedirect = false)
     public String getList(SkuLsParams skuLsParams, HttpServletRequest request){
         // 设置分页大小
         skuLsParams.setPageSize(12);

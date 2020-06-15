@@ -3,31 +3,37 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/emall-bean" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/emall-bean/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/emall-cart-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/emall-cart-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/emall-cart-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/emall-cart-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/emall-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/emall-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/emall-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/emall-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/emall-item-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/emall-item-web/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/emall-list-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/emall-list-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/emall-list-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/emall-list-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/emall-manage-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/emall-manage-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/emall-manage-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/emall-manage-web/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/emall-order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/emall-order-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/emall-order-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/emall-order-web/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/emall-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/emall-parent/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/emall-parent/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/emall-passport-web/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/emall-payment/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/emall-passport-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/emall-payment" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/emall-service-util" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/emall-service-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/emall-usermanage" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/emall-usermanage/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/emall-web-util" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/emall-web-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fastdfs-client-java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fastdfs-client-java/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fastdfs-client-java/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/gware-manage/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gware-manage" charset="UTF-8" />
   </component>
 </project>

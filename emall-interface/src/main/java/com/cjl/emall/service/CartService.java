@@ -34,7 +34,7 @@ public interface CartService {
      * @param isChecked 商品的状态
      * @param userId 用户的Id
      */
-    void checkCart(String skuId, String isChecked, String userId);
+    void checkCart(String skuId, String isChecked, String userId, Integer skuNum);
 
     /**
      *

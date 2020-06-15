@@ -1,4 +1,4 @@
-package com.cjl.emall.order.service.ipml;
+package com.cjl.emall.order.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.alibaba.fastjson.JSON;
@@ -10,7 +10,6 @@ import com.cjl.emall.config.RedisUtil;
 import com.cjl.emall.order.mapper.OrderDetailMapper;
 import com.cjl.emall.order.mapper.OrderInfoMapper;
 import com.cjl.emall.service.OrderService;
-import com.cjl.emall.util.HttpClientUtil;
 import org.apache.activemq.command.ActiveMQTextMessage;
 import org.springframework.beans.factory.annotation.Autowired;
 import redis.clients.jedis.Jedis;
@@ -177,5 +176,19 @@ public class OrderServiceImpl implements OrderService {
         }
         map.put("details",detailList);
         return map;
+    }
+
+    @Override
+    public List<OrderInfo> getOrderInfoByUser(String userId) {
+        OrderInfo orderInfo = new OrderInfo();
+        orderInfo.setUserId(userId);
+        List<OrderInfo> res = orderInfoMapper.select(orderInfo);
+        res.parallelStream().forEach(e->{
+            OrderDetail orderDetail = new OrderDetail();
+            orderDetail.setOrderId(e.getId());
+            List<OrderDetail> orderDetails = orderDetailMapper.select(orderDetail);
+            e.setOrderDetailList(orderDetails);
+        });
+        return res;
     }
 }

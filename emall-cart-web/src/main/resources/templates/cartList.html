@@ -23,10 +23,11 @@
 
             </ul>
             <ul class="header-right">
-                <li><a href="../登录页面\index.html" style="color: red;">你好，请登录</a></li>
-                <li><a href="../注册页面\index.html" >免费注册</a></li>
+                <li><a href="#" style="color: red;" th:if="${nickName} == null">你好，请登录</a></li>
+                <li><a href="#" th:if="${nickName} == null">免费注册</a></li>
                 <li class="spacer"></li>
-                <li><a href="">我的订单</a></li>
+                <li th:if="${nickName} != null" th:text="'您好，'+${nickName}"></li>
+                <li><a href="http://order.emall.com/list">我的订单</a></li>
                 <li class="spacer"></li>
 
             </ul>
@@ -52,7 +53,7 @@
                 <input type="button" value="搜索" class="one_right_btn">
             </div>
         </div>
-        <div class="one_search_load"    >
+        <div class="one_search_load"    th:if="${nickName} == null">
             <img src="./img/shop_07.jpg" class="one_load_wraing">
             <span>您还没有登录！登录后购物车的商品将保存到您账号中</span>
             <a href="#"><input type="button" onclick="login()" value="立即登录" class="one_load_btn"></a>
@@ -78,12 +79,12 @@
                 <li>操作</li>
             </ul>
         </div>
-
         <div class="One_ShopCon">
             <ul>
                 <li th:each="cartInfo: ${cartList}" >
                     <div> </div>
                     <div>
+
                         <ol>
                             <li><input type="checkbox"   class="check" th:checked="(${cartInfo.isChecked}==1)?'true':'false'"  th:value="${cartInfo.skuId}" onchange="checkSku(this)"  /></li>
                             <li>
@@ -100,11 +101,11 @@
                             <li>
                                 <p>
                                     <span>-</span>
-                                    <span th:text="${cartInfo.skuNum}">5</span>
+                                    <span th:text="${cartInfo.skuNum}" class="skuNum">5</span>
                                     <span>+</span>
                                 </p>
                             </li>
-                            <li style="font-weight:bold"><p class="zj" th:text="${cartInfo.skuNum}*${cartInfo.skuPrice}" >￥22995.00</p></li>
+                            <li style="font-weight:bold"><p class="zj" th:text="'￥'+${cartInfo.skuNum}*${cartInfo.skuPrice}" >￥22995.00</p></li>
                             <li>
                                 <p>删除</p>
                             </li>
@@ -281,12 +282,15 @@
         /*取得skuId  attr("value") : 获取value属性值*/
         var skuId= $(chkbox).attr("value");
         /* prop 反选*/
+
         var checked=$(chkbox).prop("checked");
+        var skuNum = $(chkbox).parent().next().next().next().children().children("span:nth-child(2)").html();
+
         var isCheckedFlag="0";
         if(checked){
             isCheckedFlag="1";
         }
-        var param="isChecked="+isCheckedFlag+"&"+"skuId="+skuId;
+        var param="isChecked="+isCheckedFlag+"&"+"skuId="+skuId+"&"+"skuNum="+skuNum;
         console.log(param);
         $.post("checkCart",param,function (data) {
             sumSumPrice();
@@ -548,7 +552,7 @@
         add++;
         $(this).prev("span").html(add);
         //总价
-        var dj=$(this).parent().parent().prev().children(".dj").html().substring(1);
+        var dj=$(this).parent().parent().prev().children(".dj").html().substring(0);
         var sl=$(this).prev("span").html();
         $(this).parent().parent().parent().children("li:nth-child(5)").children(".zj").html("￥"+dj*sl+".00")
         sumSumPrice();
@@ -563,7 +567,7 @@
         }
         $(this).next("span").html(jian);
         //总价
-        var dj=$(this).parent().parent().prev().children(".dj").html().substring(1);
+        var dj=$(this).parent().parent().prev().children(".dj").html().substring(0);
         var sl=$(this).next("span").html();
         $(this).parent().parent().parent().children("li:nth-child(5)").children(".zj").html("￥"+dj*sl+".00")
         sumSumPrice();
@@ -648,7 +652,7 @@
 
 
             if($(this).prop("checked")){
-                console.log("check!!"+ $(this).parents("ol").find(".zj").html());
+                console.log("check!!"+ $(this).parents("ol").find(".zj").html().substring(1));
                 var zj = $(this).parents("ol").find(".zj").html().substring(1);
                 console.log(" 价格："+zj);
                 zzj=zzj+parseFloat(zj);

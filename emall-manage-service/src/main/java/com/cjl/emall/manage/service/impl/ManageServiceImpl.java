@@ -9,6 +9,7 @@ import com.cjl.emall.manage.mapper.*;
 import com.cjl.emall.service.ManageService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Transactional;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.exceptions.JedisConnectionException;
 import tk.mybatis.mapper.entity.Example;
@@ -310,6 +311,7 @@ public class ManageServiceImpl implements ManageService {
         return  skuInfoList;
     }
 
+    @Transactional(rollbackFor = Exception.class)
     @Override
     public SkuInfo getSkuInfo(String skuId){
         SkuInfo skuInfo =null;
@@ -335,6 +337,7 @@ public class ManageServiceImpl implements ManageService {
                     // 设置key的过期时间
                     jedis.setex(skuInfoKey, ManageConst.SKUKEY_TIMEOUT,JSON.toJSONString(skuInfo));
                     jedis.close();
+                    System.out.println(JSON.toJSON(skuInfo).toString());
                     return skuInfo;
                 }else {
                     // 睡一会
@@ -344,6 +347,7 @@ public class ManageServiceImpl implements ManageService {
                 }
             }else {
                 skuInfo = JSON.parseObject(skuJson, SkuInfo.class);
+                System.out.println(skuJson);
                 jedis.close();
                 return  skuInfo;
             }

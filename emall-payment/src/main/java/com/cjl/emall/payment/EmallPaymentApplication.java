@@ -7,7 +7,6 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan(basePackages = "com.cjl.emall")
-@MapperScan(basePackages = "com.cjl.emall.payment.mapper")
 public class EmallPaymentApplication {
 
     public static void main(String[] args) {

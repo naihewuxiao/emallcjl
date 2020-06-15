@@ -3,6 +3,8 @@ package com.cjl.emall.service;
 import com.cjl.emall.bean.OrderInfo;
 import com.cjl.emall.bean.enums.ProcessStatus;
 
+import java.util.List;
+
 public interface OrderService {
     String  saveOrder(OrderInfo orderInfo);
 
@@ -25,4 +27,6 @@ public interface OrderService {
     void updateOrderStatus(String orderId, ProcessStatus paid);
     // 发送通知给库存
     void sendOrderStatus(String orderId);
+
+    List<OrderInfo> getOrderInfoByUser(String userId);
 }

@@ -29,7 +29,7 @@
 					<li th:text="'你好，'+${nickName}"> </li>
 					<li>|</li>
 					<li class="spacer"></li>
-					<li><a href="">我的订单</a></li>
+					<li><a href="http://order.emall.com/list">我的订单</a></li>
 					<li class="spacer"></li>
 
 				</ul>
@@ -127,6 +127,7 @@
 				<input th:name="'orderDetailList['+${stat.index}+'].skuNum'" type="hidden"    th:value="${orderDetail.skuNum}" />
 			    <input th:name="'orderDetailList['+${stat.index}+'].orderPrice'" type="hidden"    th:value="${orderDetail.orderPrice}" />
 			    <input th:name="'orderDetailList['+${stat.index}+'].skuName'" type="hidden"    th:value="${orderDetail.skuName}" />
+				<input th:name="'orderDetailList['+${stat.index}+'].imgUrl'" type="hidden"    th:value="${orderDetail.imgUrl}" />
 			</span>
 			<!--隐藏域：-->
 			<input name="tradeNo" type="hidden"  th:value="${tradeNo}"  />

@@ -4,9 +4,11 @@ import com.cjl.emall.config.ActiveMQUtil;
 import com.cjl.emall.payment.service.PaymentService;
 import org.apache.activemq.command.ActiveMQMapMessage;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import javax.jms.*;
 
+@Service
 public class PaymentServiceImpl implements PaymentService {
 
     @Autowired
